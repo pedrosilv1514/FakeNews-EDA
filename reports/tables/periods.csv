@@ -1,0 +1,10 @@
+dataset,label_semantic,count,min,max
+factchecks/FakeRecogna,fake,5147,2018-08-29,2021-12-07
+factchecks/FakeRecogna,not_fake,5728,2019-10-02,2021-06-07
+factchecks/central_de_fatos,fake,10286,2013-01-07,2021-12-05
+factchecks/central_de_fatos,not_fake,141,2015-02-12,2021-06-05
+factchecks/central_de_fatos,other,34,2015-01-12,2021-04-13
+factchecks/fakebr,fake,3599,2012-09-13,2018-02-02
+factchecks/fakebr,not_fake,3598,2009-06-01,2018-07-23
+fakerecogna/original,fake,5291,2012-02-09,2021-12-07
+fakerecogna/original,real,5951,2019-05-13,2021-06-07

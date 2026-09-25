@@ -1,0 +1,271 @@
+dataset,label,term,mean_tfidf_difference
+factchecks/FakeRecogna,fake,boato,0.02762564584716204
+factchecks/FakeRecogna,fake,vídeo,0.020295037430240855
+factchecks/FakeRecogna,fake,que,0.013195052421535436
+factchecks/FakeRecogna,fake,boato boato,0.013161907752261634
+factchecks/FakeRecogna,fake,fake,0.013136805800296903
+factchecks/FakeRecogna,fake,mensagem,0.012198768876363912
+factchecks/FakeRecogna,fake,foto,0.011947339573396604
+factchecks/FakeRecogna,fake,umar,0.011500737286473247
+factchecks/FakeRecogna,fake,imagem,0.011488531666015283
+factchecks/FakeRecogna,fake,circular,0.011127834547240045
+factchecks/FakeRecogna,fake,whatsapp,0.011111242955234673
+factchecks/FakeRecogna,fake,compartilhar,0.009799129775353617
+factchecks/FakeRecogna,fake,verdade,0.00971503432006648
+factchecks/FakeRecogna,fake,rede social,0.009449384285952211
+factchecks/FakeRecogna,fake,rede,0.009345402209839843
+factchecks/FakeRecogna,fake,parir,0.00814656680966021
+factchecks/FakeRecogna,fake,circular rede,0.008140851687475834
+factchecks/FakeRecogna,fake,social,0.007856931379501914
+factchecks/FakeRecogna,fake,falso,0.0077480004223062955
+factchecks/FakeRecogna,fake,texto,0.007681000873656488
+factchecks/FakeRecogna,fake,facebook,0.0076295895527112995
+factchecks/FakeRecogna,fake,um,0.0076219747635236056
+factchecks/FakeRecogna,fake,lula,0.007565380208978739
+factchecks/FakeRecogna,fake,em,0.007428648884042698
+factchecks/FakeRecogna,fake,não,0.007186974310767264
+factchecks/FakeRecogna,fake,site,0.007183977925715817
+factchecks/FakeRecogna,fake,mostra,0.007116686373776719
+factchecks/FakeRecogna,fake,fake que,0.006796242127669989
+factchecks/FakeRecogna,fake,publicação,0.0067110171707255315
+factchecks/FakeRecogna,fake,redes,0.006248686883123319
+factchecks/FakeRecogna,not_fake,saudar,0.01617579345257265
+factchecks/FakeRecogna,not_fake,feira,0.013456674441493236
+factchecks/FakeRecogna,not_fake,coronavírus,0.013323123796169407
+factchecks/FakeRecogna,not_fake,pandemia,0.01167221266582236
+factchecks/FakeRecogna,not_fake,caso,0.011303007788391675
+factchecks/FakeRecogna,not_fake,país,0.010587834795015997
+factchecks/FakeRecogna,not_fake,ministério,0.010482301372955864
+factchecks/FakeRecogna,not_fake,hoje,0.009968882400630387
+factchecks/FakeRecogna,not_fake,covid,0.00987564156164456
+factchecks/FakeRecogna,not_fake,covid 19,0.009155761451060182
+factchecks/FakeRecogna,not_fake,19,0.009128989189887391
+factchecks/FakeRecogna,not_fake,governar,0.007778431320630058
+factchecks/FakeRecogna,not_fake,medir,0.007408493220055898
+factchecks/FakeRecogna,not_fake,ministrar,0.006928226531025227
+factchecks/FakeRecogna,not_fake,doença,0.006749905627649358
+factchecks/FakeRecogna,not_fake,público,0.006706434483713175
+factchecks/FakeRecogna,not_fake,dose,0.006386858854922791
+factchecks/FakeRecogna,not_fake,ministério saudar,0.006346028538274963
+factchecks/FakeRecogna,not_fake,milhão,0.006061858176097678
+factchecks/FakeRecogna,not_fake,federal,0.006037443006395706
+factchecks/FakeRecogna,not_fake,decisão,0.006004762008094249
+factchecks/FakeRecogna,not_fake,morte,0.00589305214564442
+factchecks/FakeRecogna,not_fake,vacinar,0.005861750938389388
+factchecks/FakeRecogna,not_fake,nacional,0.005825882145448696
+factchecks/FakeRecogna,not_fake,pandemia coronavírus,0.00535437871306165
+factchecks/FakeRecogna,not_fake,paciente,0.005165422770167052
+factchecks/FakeRecogna,not_fake,segunda,0.005061311511127664
+factchecks/FakeRecogna,not_fake,casar,0.004936395012913624
+factchecks/FakeRecogna,not_fake,presidente,0.004917180928347833
+factchecks/FakeRecogna,not_fake,vacinação,0.0049131970778542935
+factchecks/central_de_fatos,fake,história,0.013616275819134221
+factchecks/central_de_fatos,fake,boato,0.013374867610437246
+factchecks/central_de_fatos,fake,vídeo,0.012336077342013991
+factchecks/central_de_fatos,fake,boatos,0.012125533670080848
+factchecks/central_de_fatos,fake,internet,0.010281587727713669
+factchecks/central_de_fatos,fake,foto,0.01005382337299126
+factchecks/central_de_fatos,fake,mensagem,0.009758298608424892
+factchecks/central_de_fatos,fake,org,0.0096793637431854
+factchecks/central_de_fatos,fake,boatos org,0.009656882848727294
+factchecks/central_de_fatos,fake,na internet,0.009353258246559413
+factchecks/central_de_fatos,fake,você,0.009348577630497987
+factchecks/central_de_fatos,fake,whatsapp,0.00792526209900311
+factchecks/central_de_fatos,fake,falsa,0.007718734386303506
+factchecks/central_de_fatos,fake,se,0.007500993394083978
+factchecks/central_de_fatos,fake,facebook,0.0070679476639980065
+factchecks/central_de_fatos,fake,gente,0.006934936043474862
+factchecks/central_de_fatos,fake,falso,0.006085367885800607
+factchecks/central_de_fatos,fake,se você,0.005680281659661583
+factchecks/central_de_fatos,fake,lula,0.005445955989552646
+factchecks/central_de_fatos,fake,nada,0.00543345983719489
+factchecks/central_de_fatos,fake,site,0.005310932237499113
+factchecks/central_de_fatos,fake,imagem,0.005233777737204586
+factchecks/central_de_fatos,fake,versão,0.005150686326256705
+factchecks/central_de_fatos,fake,fake,0.005062748850760973
+factchecks/central_de_fatos,fake,como,0.005039755662821058
+factchecks/central_de_fatos,fake,por,0.0050254951467553835
+factchecks/central_de_fatos,fake,está,0.004965734387875392
+factchecks/central_de_fatos,fake,tudo,0.0049098789847690305
+factchecks/central_de_fatos,fake,covid,0.004828193342297846
+factchecks/central_de_fatos,fake,já,0.004798556301049841
+factchecks/central_de_fatos,not_fake,programa,0.015626368021545288
+factchecks/central_de_fatos,not_fake,governo,0.014424084653489396
+factchecks/central_de_fatos,not_fake,prefeito,0.014030594792378377
+factchecks/central_de_fatos,not_fake,de governo,0.014021671847051179
+factchecks/central_de_fatos,not_fake,prefeitura,0.013725257241833034
+factchecks/central_de_fatos,not_fake,enem,0.013406401490034917
+factchecks/central_de_fatos,not_fake,rio,0.01250799571333547
+factchecks/central_de_fatos,not_fake,câmara,0.011877401181577076
+factchecks/central_de_fatos,not_fake,ano,0.011552090813322424
+factchecks/central_de_fatos,not_fake,milhões,0.01154964623615342
+factchecks/central_de_fatos,not_fake,discurso,0.011351568221815484
+factchecks/central_de_fatos,not_fake,disse,0.01101638948854122
+factchecks/central_de_fatos,not_fake,2016,0.010832385890410565
+factchecks/central_de_fatos,not_fake,2015,0.010815062473247039
+factchecks/central_de_fatos,not_fake,do rio,0.010650223158769088
+factchecks/central_de_fatos,not_fake,temer,0.010353851385242165
+factchecks/central_de_fatos,not_fake,2014,0.010239203306565237
+factchecks/central_de_fatos,not_fake,crivella,0.010196455663587858
+factchecks/central_de_fatos,not_fake,promessa,0.009949554824322485
+factchecks/central_de_fatos,not_fake,pezão,0.009915560771705655
+factchecks/central_de_fatos,not_fake,paes,0.009652953342124064
+factchecks/central_de_fatos,not_fake,ensino,0.009641608404593847
+factchecks/central_de_fatos,not_fake,candidato,0.009578373072474031
+factchecks/central_de_fatos,not_fake,pmdb,0.009452114145306296
+factchecks/central_de_fatos,not_fake,lei,0.009430604378821775
+factchecks/central_de_fatos,not_fake,secretaria,0.009373039332215373
+factchecks/central_de_fatos,not_fake,posse,0.009098868536485063
+factchecks/central_de_fatos,not_fake,witzel,0.00893933805436108
+factchecks/central_de_fatos,not_fake,do enem,0.008838720530589667
+factchecks/central_de_fatos,not_fake,presidente,0.008838478665354567
+factchecks/central_de_fatos,other,rio,0.030080339705561548
+factchecks/central_de_fatos,other,verdadeira mas,0.02832143895827561
+factchecks/central_de_fatos,other,no caiu,0.024347031036958334
+factchecks/central_de_fatos,other,caiunarede,0.02434232084045868
+factchecks/central_de_fatos,other,rede fake,0.024341505864494017
+factchecks/central_de_fatos,other,fake confira,0.024272377471949776
+factchecks/central_de_fatos,other,informação verdadeira,0.021942491690425413
+factchecks/central_de_fatos,other,caiu na,0.02095947563461622
+factchecks/central_de_fatos,other,novembro,0.020018792524783093
+factchecks/central_de_fatos,other,fundão,0.019913983093208673
+factchecks/central_de_fatos,other,do rio,0.019415640343380336
+factchecks/central_de_fatos,other,de novembro,0.019081769449434606
+factchecks/central_de_fatos,other,verdadeira,0.018491792967903133
+factchecks/central_de_fatos,other,zika,0.018362349443984505
+factchecks/central_de_fatos,other,lupa,0.018015260948367126
+factchecks/central_de_fatos,other,programa,0.017896000794524847
+factchecks/central_de_fatos,other,de janeiro,0.016177762989465917
+factchecks/central_de_fatos,other,crivella,0.0161351530503346
+factchecks/central_de_fatos,other,verificado no,0.01571348080634192
+factchecks/central_de_fatos,other,inscrições,0.01552207520567995
+factchecks/central_de_fatos,other,rio de,0.015425843845790948
+factchecks/central_de_fatos,other,caiu,0.015302261174824385
+factchecks/central_de_fatos,other,janeiro,0.01462946815472847
+factchecks/central_de_fatos,other,vírus zika,0.014553810380242681
+factchecks/central_de_fatos,other,foi verificado,0.014155237684476752
+factchecks/central_de_fatos,other,na rede,0.013852473631663132
+factchecks/central_de_fatos,other,ios,0.013776637124803263
+factchecks/central_de_fatos,other,vaga,0.013301052249059586
+factchecks/central_de_fatos,other,whatsapp informação,0.01283304430516041
+factchecks/central_de_fatos,other,conteúdo foi,0.012695351070702516
+factchecks/fakebr,fake,dilma,0.009829047072375289
+factchecks/fakebr,fake,vídeo,0.005546137622664845
+factchecks/fakebr,fake,coréia,0.004629997728427121
+factchecks/fakebr,fake,coréia do,0.0043429127511496095
+factchecks/fakebr,fake,jornalista,0.004158173708687991
+factchecks/fakebr,fake,globo,0.0039295074182077415
+factchecks/fakebr,fake,leia também,0.0033019022420552463
+factchecks/fakebr,fake,petista,0.003116217834024759
+factchecks/fakebr,fake,impeachment,0.003054587983101693
+factchecks/fakebr,fake,através,0.002645350656259759
+factchecks/fakebr,fake,de dilma,0.002604379103193987
+factchecks/fakebr,fake,diário do,0.002521020493305922
+factchecks/fakebr,fake,será que,0.0025089833054151413
+factchecks/fakebr,fake,apresentador,0.0023960064982572536
+factchecks/fakebr,fake,antagonista,0.0022875360651990278
+factchecks/fakebr,fake,confira,0.0021926580321967384
+factchecks/fakebr,fake,matéria,0.0021525506322826148
+factchecks/fakebr,fake,bolsonaro,0.002145649625689106
+factchecks/fakebr,fake,poderá,0.0021377592038296775
+factchecks/fakebr,fake,de hoje,0.002072545629343406
+factchecks/fakebr,fake,jornal,0.0020660713083153707
+factchecks/fakebr,fake,redes sociais,0.0019990532213922736
+factchecks/fakebr,fake,redes,0.0019970835829399517
+factchecks/fakebr,fake,nas redes,0.001959586906220002
+factchecks/fakebr,fake,folha,0.0019448768548101438
+factchecks/fakebr,fake,site,0.001929469270245957
+factchecks/fakebr,fake,da coréia,0.0019201708527142665
+factchecks/fakebr,fake,povo,0.0019133935612672243
+factchecks/fakebr,fake,diário,0.001907592674229605
+factchecks/fakebr,fake,da globo,0.0018015022714837976
+factchecks/fakebr,not_fake,da,0.04712395319591038
+factchecks/fakebr,not_fake,em,0.04304793050521037
+factchecks/fakebr,not_fake,no,0.030847243613969073
+factchecks/fakebr,not_fake,para,0.03065666206195029
+factchecks/fakebr,not_fake,na,0.026731273010962803
+factchecks/fakebr,not_fake,com,0.023965957600973888
+factchecks/fakebr,not_fake,não,0.02275391791042662
+factchecks/fakebr,not_fake,os,0.022184890425185972
+factchecks/fakebr,not_fake,por,0.02186292316390607
+factchecks/fakebr,not_fake,uma,0.018219139778534368
+factchecks/fakebr,not_fake,as,0.017843288216301344
+factchecks/fakebr,not_fake,um,0.017654325881433647
+factchecks/fakebr,not_fake,mas,0.017313384960102426
+factchecks/fakebr,not_fake,como,0.016493144432604537
+factchecks/fakebr,not_fake,ao,0.016269065997343145
+factchecks/fakebr,not_fake,dos,0.016035169061724315
+factchecks/fakebr,not_fake,se,0.014862339222493408
+factchecks/fakebr,not_fake,foi,0.013143957740609526
+factchecks/fakebr,not_fake,ele,0.012535783834161292
+factchecks/fakebr,not_fake,segundo,0.01253280436085985
+factchecks/fakebr,not_fake,das,0.011842443172096291
+factchecks/fakebr,not_fake,mais,0.01164078111892095
+factchecks/fakebr,not_fake,presidente,0.01110128559856691
+factchecks/fakebr,not_fake,anos,0.010415072442900502
+factchecks/fakebr,not_fake,são,0.010206910764634789
+factchecks/fakebr,not_fake,feira,0.010154574348306139
+factchecks/fakebr,not_fake,federal,0.00998064410234826
+factchecks/fakebr,not_fake,sobre,0.009918017168626829
+factchecks/fakebr,not_fake,pelo,0.009894525086919742
+factchecks/fakebr,not_fake,ex,0.009816711056084351
+fakerecogna/original,fake,vídeo,0.01722003882612083
+fakerecogna/original,fake,circular,0.015545237595818927
+fakerecogna/original,fake,rede,0.013724398837099987
+fakerecogna/original,fake,rede social,0.013648871161816628
+fakerecogna/original,fake,imagem,0.013439252872838356
+fakerecogna/original,fake,mensagem,0.013301736555721375
+fakerecogna/original,fake,compartilhar,0.01299902116041542
+fakerecogna/original,fake,umar,0.011907419685401694
+fakerecogna/original,fake,social,0.011762249560016352
+fakerecogna/original,fake,circular rede,0.011233393196627015
+fakerecogna/original,fake,foto,0.010799092496602141
+fakerecogna/original,fake,facebook,0.010474811324718614
+fakerecogna/original,fake,publicação,0.009852526133324515
+fakerecogna/original,fake,texto,0.009408672371889573
+fakerecogna/original,fake,parir,0.009150413696495328
+fakerecogna/original,fake,whatsapp,0.008245371268729297
+fakerecogna/original,fake,pra,0.008058625152597155
+fakerecogna/original,fake,mostrar,0.0076433701204050705
+fakerecogna/original,fake,site,0.0070590864416544
+fakerecogna/original,fake,falso,0.00686293061943927
+fakerecogna/original,fake,fake,0.006728511629443518
+fakerecogna/original,fake,lula,0.006599478132246724
+fakerecogna/original,fake,verdade,0.006061868093326713
+fakerecogna/original,fake,legendar,0.005622831341197781
+fakerecogna/original,fake,espalhar,0.005473938414001489
+fakerecogna/original,fake,pelar,0.005302697832771141
+fakerecogna/original,fake,acompanhar,0.005233482318188534
+fakerecogna/original,fake,twitter,0.0052230336365600896
+fakerecogna/original,fake,homem,0.0050469307676900945
+fakerecogna/original,fake,comer,0.004672318115067994
+fakerecogna/original,real,de,0.027033763186758722
+fakerecogna/original,real,saudar,0.01700963133413915
+fakerecogna/original,real,feira,0.01511006035656342
+fakerecogna/original,real,coronavírus,0.013383201096853533
+fakerecogna/original,real,caso,0.012791560266323743
+fakerecogna/original,real,que,0.012307917497659306
+fakerecogna/original,real,pandemia,0.012006735713871158
+fakerecogna/original,real,covid 19,0.011366402838427882
+fakerecogna/original,real,19,0.011305071433763041
+fakerecogna/original,real,do,0.011235345436371547
+fakerecogna/original,real,país,0.010928363749132248
+fakerecogna/original,real,ministério,0.010682945101162007
+fakerecogna/original,real,hoje,0.010545515759241215
+fakerecogna/original,real,covid,0.010449337610760211
+fakerecogna/original,real,da,0.010267714266283692
+fakerecogna/original,real,em,0.008260144341059011
+fakerecogna/original,real,medir,0.007795431518896954
+fakerecogna/original,real,doença,0.007260881126833392
+fakerecogna/original,real,ministrar,0.007163909232705537
+fakerecogna/original,real,governar,0.007005787921897913
+fakerecogna/original,real,ministério saudar,0.006905809994243077
+fakerecogna/original,real,para,0.006901669266246955
+fakerecogna/original,real,público,0.006808383590217711
+fakerecogna/original,real,federal,0.006762399621244707
+fakerecogna/original,real,dose,0.006650823505335598
+fakerecogna/original,real,morte,0.006497311937753799
+fakerecogna/original,real,decisão,0.00642823279171518
+fakerecogna/original,real,presidente,0.006329139396968034
+fakerecogna/original,real,nacional,0.006095565652828126
+fakerecogna/original,real,no,0.005733339963460081

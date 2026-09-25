@@ -1,0 +1,19 @@
+risk,evidence,severity,recommendation
+Associacao label-domain em factchecks/FakeNewsSet,72.4% dos registros estao em valores com >=5 casos e uma unica classe.,alta,Auditar e considerar group split por domain; comparar baseline com e sem o campo.
+Associacao label-domain em factchecks/FakeRecogna,36.8% dos registros estao em valores com >=5 casos e uma unica classe.,média,Auditar e considerar group split por domain; comparar baseline com e sem o campo.
+Associacao label-author em factchecks/FakeRecogna,49.4% dos registros estao em valores com >=5 casos e uma unica classe.,média,Auditar e considerar group split por author; comparar baseline com e sem o campo.
+Associacao label-category em factchecks/FakeRecogna,11.7% dos registros estao em valores com >=5 casos e uma unica classe.,baixa,Auditar e considerar group split por category; comparar baseline com e sem o campo.
+Separacao temporal entre classes em factchecks/FakeRecogna,Inicio das classes difere em ate 399 dias; consultar tabela de periodos.,média,Testar split temporal e medir desempenho por janela de tempo.
+Associacao label-domain em factchecks/central_de_fatos,57.9% dos registros estao em valores com >=5 casos e uma unica classe.,alta,Auditar e considerar group split por domain; comparar baseline com e sem o campo.
+Associacao label-category em factchecks/central_de_fatos,66.8% dos registros estao em valores com >=5 casos e uma unica classe.,alta,Auditar e considerar group split por category; comparar baseline com e sem o campo.
+Separacao temporal entre classes em factchecks/central_de_fatos,Inicio das classes difere em ate 766 dias; consultar tabela de periodos.,alta,Testar split temporal e medir desempenho por janela de tempo.
+Associacao label-domain em factchecks/fact_check_tweet_pt,4.1% dos registros estao em valores com >=5 casos e uma unica classe.,baixa,Auditar e considerar group split por domain; comparar baseline com e sem o campo.
+Associacao label-domain em factchecks/fakebr,99.8% dos registros estao em valores com >=5 casos e uma unica classe.,alta,Auditar e considerar group split por domain; comparar baseline com e sem o campo.
+Associacao label-author em factchecks/fakebr,26.8% dos registros estao em valores com >=5 casos e uma unica classe.,média,Auditar e considerar group split por author; comparar baseline com e sem o campo.
+Associacao label-category em factchecks/fakebr,0.0% dos registros estao em valores com >=5 casos e uma unica classe.,baixa,Auditar e considerar group split por category; comparar baseline com e sem o campo.
+Separacao temporal entre classes em factchecks/fakebr,Inicio das classes difere em ate 1200 dias; consultar tabela de periodos.,alta,Testar split temporal e medir desempenho por janela de tempo.
+Associacao label-domain em fakerecogna/original,47.0% dos registros estao em valores com >=5 casos e uma unica classe.,média,Auditar e considerar group split por domain; comparar baseline com e sem o campo.
+Associacao label-author em fakerecogna/original,50.1% dos registros estao em valores com >=5 casos e uma unica classe.,alta,Auditar e considerar group split por author; comparar baseline com e sem o campo.
+Associacao label-category em fakerecogna/original,11.8% dos registros estao em valores com >=5 casos e uma unica classe.,baixa,Auditar e considerar group split por category; comparar baseline com e sem o campo.
+Separacao temporal entre classes em fakerecogna/original,Inicio das classes difere em ate 2650 dias; consultar tabela de periodos.,alta,Testar split temporal e medir desempenho por janela de tempo.
+Sobreposicao entre datasets,11877 assinaturas cruzadas; 132 apresentam conflito semantico de label.,alta,Agrupar por URL/texto antes do split e revisar conflitos; nunca sortear linhas isoladamente.

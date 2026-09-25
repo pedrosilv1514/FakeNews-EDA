@@ -1,0 +1,491 @@
+dataset,field,value,dominant_label,count,total,purity
+factchecks/FakeNewsSet,domain,afp.com,fake,9,10,0.9
+factchecks/FakeNewsSet,domain,aosfatos.org,fake,142,142,1.0
+factchecks/FakeNewsSet,domain,apublica.org,fake,10,11,0.9090909090909091
+factchecks/FakeNewsSet,domain,globo.com,not_fake,279,279,1.0
+factchecks/FakeNewsSet,domain,r7.com,not_fake,12,12,1.0
+factchecks/FakeNewsSet,domain,uol.com.br,fake,139,143,0.972027972027972
+factchecks/FakeRecogna,domain,afp.com,fake,503,503,1.0
+factchecks/FakeRecogna,domain,boatos.org,fake,2425,2425,1.0
+factchecks/FakeRecogna,domain,globo.com,not_fake,1323,2451,0.5397796817625459
+factchecks/FakeRecogna,domain,gov.br,not_fake,215,215,1.0
+factchecks/FakeRecogna,domain,projetocomprova.com.br,fake,388,388,1.0
+factchecks/FakeRecogna,domain,r7.com,fake,804,804,1.0
+factchecks/FakeRecogna,domain,uol.com.br,not_fake,4413,4987,0.8849007419290155
+factchecks/FakeRecogna,author,"AFP Argentina, Nadia Nasanovsky, AFP Brasil",fake,5,5,1.0
+factchecks/FakeRecogna,author,AFP Brasil,fake,297,297,1.0
+factchecks/FakeRecogna,author,"AFP Colombia, AFP Brasil",fake,5,5,1.0
+factchecks/FakeRecogna,author,AFP México,fake,5,5,1.0
+factchecks/FakeRecogna,author,"AFP México, AFP Brasil",fake,6,6,1.0
+factchecks/FakeRecogna,author,Abinoan Santiago,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,"Alessandro Feitosa Jr, G1",not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Alex Tajra,not_fake,11,11,1.0
+factchecks/FakeRecogna,author,"Alexandro Martello, G1 — Brasília",not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Aliny Gama,not_fake,11,11,1.0
+factchecks/FakeRecogna,author,Amanda Pupo,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,Ana Carla Bermúdez,not_fake,9,9,1.0
+factchecks/FakeRecogna,author,Anaís Motta,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,André Borges,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,André Shalders,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,Andréia Martins,not_fake,4,5,0.8
+factchecks/FakeRecogna,author,Anita Grando Martins,fake,32,32,1.0
+factchecks/FakeRecogna,author,Anne Warth,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,Antonio Temóteo,not_fake,11,11,1.0
+factchecks/FakeRecogna,author,Arthur Sandes,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,BBC,not_fake,88,88,1.0
+factchecks/FakeRecogna,author,Beatriz Montesanti,fake,5,7,0.7142857142857143
+factchecks/FakeRecogna,author,Bernardo Barbosa,fake,6,6,1.0
+factchecks/FakeRecogna,author,Bloomberg News,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Bruno Alfano,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,Caio Blois,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,Camila Turtelli,not_fake,12,12,1.0
+factchecks/FakeRecogna,author,Carina Martins,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Carlos Madeiro,not_fake,32,34,0.9411764705882353
+factchecks/FakeRecogna,author,Carol Lira,fake,142,142,1.0
+factchecks/FakeRecogna,author,"Carolina Dantas, G1",not_fake,6,6,1.0
+factchecks/FakeRecogna,author,Carolina Marins,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,Colaboração para o UOL,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,"Colaboração para o UOL, em Curitiba",fake,16,16,1.0
+factchecks/FakeRecogna,author,"Colaboração para o UOL, em São Paulo",fake,19,22,0.8636363636363636
+factchecks/FakeRecogna,author,Comprova,fake,388,388,1.0
+factchecks/FakeRecogna,author,Convidado,fake,5,5,1.0
+factchecks/FakeRecogna,author,Da Agência Brasil,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Da Agência Lupa,fake,13,13,1.0
+factchecks/FakeRecogna,author,Daniel Weterman,not_fake,17,17,1.0
+factchecks/FakeRecogna,author,"Do UOL, em São Paulo",fake,86,145,0.593103448275862
+factchecks/FakeRecogna,author,"Do UOL, em São Paulo*",fake,70,75,0.9333333333333333
+factchecks/FakeRecogna,author,Edgard Matsuki,fake,1459,1459,1.0
+factchecks/FakeRecogna,author,Eduardo Militão,not_fake,13,13,1.0
+factchecks/FakeRecogna,author,Eduardo Simões,not_fake,10,10,1.0
+factchecks/FakeRecogna,author,"Elida Oliveira, G1",not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Emilly Behnke,not_fake,10,10,1.0
+factchecks/FakeRecogna,author,Evelin Azevedo,not_fake,26,26,1.0
+factchecks/FakeRecogna,author,Extra,not_fake,61,67,0.9104477611940298
+factchecks/FakeRecogna,author,Fabiana Cambricoli,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Felipe Amorim,not_fake,23,24,0.9583333333333334
+factchecks/FakeRecogna,author,Felipe Frazão,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,"Felipe Grandin, G1",fake,5,6,0.8333333333333334
+factchecks/FakeRecogna,author,Felipe Pereira,not_fake,21,21,1.0
+factchecks/FakeRecogna,author,Felipe Pereira e Patrick Mesquita,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,"Fernanda Vivas e Márcio Falcão, TV Globo — Brasília",not_fake,20,20,1.0
+factchecks/FakeRecogna,author,"Fernanda Vivas, TV Globo — Brasília",not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Filipe Vidon,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,France Presse,not_fake,42,42,1.0
+factchecks/FakeRecogna,author,Fábio Grellet,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,G1,not_fake,316,519,0.6088631984585742
+factchecks/FakeRecogna,author,G1 SP — São Paulo,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,G1 e O Globo,fake,9,9,1.0
+factchecks/FakeRecogna,author,G1 — Brasília,not_fake,25,25,1.0
+factchecks/FakeRecogna,author,G1 — São Paulo,not_fake,12,13,0.9230769230769231
+factchecks/FakeRecogna,author,"G1, O Globo, Extra, TV Globo, CBN, Valor e GloboNews",fake,90,90,1.0
+factchecks/FakeRecogna,author,"G1, O Globo, TV Globo e GloboNews",fake,22,22,1.0
+factchecks/FakeRecogna,author,Gabriel Sabóia,not_fake,11,11,1.0
+factchecks/FakeRecogna,author,"Gabriela Caesar, G1",fake,11,12,0.9166666666666666
+factchecks/FakeRecogna,author,Gilmar Lopes,fake,55,55,1.0
+factchecks/FakeRecogna,author,Giovana Girardi,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,"Gisele Barros, O Globo",fake,8,8,1.0
+factchecks/FakeRecogna,author,Giulia Granchi,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,Guilherme Mazieiro,not_fake,13,13,1.0
+factchecks/FakeRecogna,author,"Guilherme Mazui, G1 — Brasília",not_fake,9,9,1.0
+factchecks/FakeRecogna,author,"Gustavo Garcia e Sara Resende, G1 e TV Globo — Brasília",not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Hanrrikson de Andrade,not_fake,13,13,1.0
+factchecks/FakeRecogna,author,Hellen Bizerra,fake,25,25,1.0
+factchecks/FakeRecogna,author,"Hellen Guimarães, O Globo",fake,19,19,1.0
+factchecks/FakeRecogna,author,Herculano Barreto Filho,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Idiana Tomazelli,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,Igor Mello,not_fake,13,13,1.0
+factchecks/FakeRecogna,author,"Isabela Aleixo, O Globo",fake,12,12,1.0
+factchecks/FakeRecogna,author,José Maria Tomazela,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,João José Oliveira,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Julia Lindner,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,Juliana Arreguy,fake,5,7,0.7142857142857143
+factchecks/FakeRecogna,author,Juliana Arreguy e Beatriz Montesanti,fake,8,8,1.0
+factchecks/FakeRecogna,author,Jussara Soares,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Kyene Becker,fake,585,585,1.0
+factchecks/FakeRecogna,author,"Lara Pinheiro, G1",not_fake,11,11,1.0
+factchecks/FakeRecogna,author,"Laís Lis, G1 — Brasília",not_fake,18,18,1.0
+factchecks/FakeRecogna,author,"Laís Modelli, G1",not_fake,5,7,0.7142857142857143
+factchecks/FakeRecogna,author,"Laís Modelli, Roney Domingos, Thiago Reis, Gabriel Morais, Gisele Gomes, Chandy Teixeira e Vinícius Cassela, G1, O Globo, GloboNews e TV Globo",fake,9,9,1.0
+factchecks/FakeRecogna,author,Leonardo Martins,not_fake,15,15,1.0
+factchecks/FakeRecogna,author,"Letícia Lopes, O Globo e G1",fake,5,5,1.0
+factchecks/FakeRecogna,author,Lisandra Paraguassu,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,"Louis Baudoin-Laarman, AFP Estados Unidos",fake,5,5,1.0
+factchecks/FakeRecogna,author,Lucas Borges Teixeira,fake,101,119,0.8487394957983193
+factchecks/FakeRecogna,author,Luci Ribeiro,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Luciana Amaral,not_fake,31,31,1.0
+factchecks/FakeRecogna,author,"Luiz Felipe Barbiéri, G1 — Brasília",not_fake,7,7,1.0
+factchecks/FakeRecogna,author,Luís Adorno,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Marcela Ayres,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Marcela Lemos,not_fake,8,8,1.0
+factchecks/FakeRecogna,author,Marcelo Oliveira,not_fake,11,12,0.9166666666666666
+factchecks/FakeRecogna,author,"Marcelo Parreira, TV Globo",fake,22,22,1.0
+factchecks/FakeRecogna,author,Maria Carolina Marcello,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,"Mariana Oliveira, TV Globo — Brasília",not_fake,6,6,1.0
+factchecks/FakeRecogna,author,"Marion Dautry, AFP Belgrado",fake,7,7,1.0
+factchecks/FakeRecogna,author,"Marlen Couto, O Globo",fake,6,6,1.0
+factchecks/FakeRecogna,author,Marlla Sabino,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Mateus Vargas,not_fake,10,10,1.0
+factchecks/FakeRecogna,author,Ministério da Saúde(61) 3315-3580 / 2351,not_fake,26,26,1.0
+factchecks/FakeRecogna,author,Ministério da Saúde(61) 3315-3587 / 3580,not_fake,7,7,1.0
+factchecks/FakeRecogna,author,"Márcio Falcão e Fernanda Vivas, TV Globo — Brasília",not_fake,20,20,1.0
+factchecks/FakeRecogna,author,Naian Lopes,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Nathan Lopes,not_fake,24,24,1.0
+factchecks/FakeRecogna,author,Natália Lázaro,not_fake,10,10,1.0
+factchecks/FakeRecogna,author,O Globo,fake,26,27,0.9629629629629629
+factchecks/FakeRecogna,author,"Patrícia Fiúza, G1 Minas — Belo Horizonte",fake,10,10,1.0
+factchecks/FakeRecogna,author,Paulo Roberto Netto,not_fake,13,13,1.0
+factchecks/FakeRecogna,author,Pedro Caramuru,not_fake,9,9,1.0
+factchecks/FakeRecogna,author,Pedro Fonseca,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,"Pedro Henrique Gomes, G1 — Brasília",not_fake,9,9,1.0
+factchecks/FakeRecogna,author,RFI,not_fake,13,13,1.0
+factchecks/FakeRecogna,author,Rafael Moraes Moura,not_fake,9,9,1.0
+factchecks/FakeRecogna,author,Raiane Gonoli,fake,209,209,1.0
+factchecks/FakeRecogna,author,Rayssa Motta,not_fake,10,10,1.0
+factchecks/FakeRecogna,author,Redação,not_fake,12,12,1.0
+factchecks/FakeRecogna,author,"Redação, O Estado de S.Paulo",not_fake,8,8,1.0
+factchecks/FakeRecogna,author,Renata Lo Prete,not_fake,5,5,1.0
+factchecks/FakeRecogna,author,Reuters,not_fake,29,29,1.0
+factchecks/FakeRecogna,author,Ricardo Brito,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,Rio de Janeiro,not_fake,14,14,1.0
+factchecks/FakeRecogna,author,"Roberta Pennafort, CBN",fake,187,187,1.0
+factchecks/FakeRecogna,author,"Roberta Pennnafort, CBN",fake,10,10,1.0
+factchecks/FakeRecogna,author,"Roney Domingos, Camila Zarur, Vinícius Cassela e Marcelo Gomes, G1, O Globo, TV Globo e GloboNews",fake,6,6,1.0
+factchecks/FakeRecogna,author,"Roney Domingos, G1",fake,308,308,1.0
+factchecks/FakeRecogna,author,"Roney Domingos, Gabriel Morais, Vinícius Cassela e Marcelo Gomes, G1, O Globo, TV Globo e GloboNews",fake,5,5,1.0
+factchecks/FakeRecogna,author,"Rosanne D'Agostino, G1 — Brasília",not_fake,11,11,1.0
+factchecks/FakeRecogna,author,Simone Machado,not_fake,6,6,1.0
+factchecks/FakeRecogna,author,"Thaís Matos, G1",fake,58,58,1.0
+factchecks/FakeRecogna,author,UOL Notícias,fake,5,5,1.0
+factchecks/FakeRecogna,author,Wanderley Preite Sobrinho,not_fake,15,15,1.0
+factchecks/FakeRecogna,author,gilmar lopes,fake,478,478,1.0
+factchecks/FakeRecogna,author,marco faustino,fake,269,269,1.0
+factchecks/FakeRecogna,category,brasil,fake,816,890,0.9168539325842696
+factchecks/FakeRecogna,category,ciência,not_fake,417,599,0.6961602671118531
+factchecks/FakeRecogna,category,entretenimento,fake,1383,1383,1.0
+factchecks/FakeRecogna,category,mundo,fake,554,558,0.992831541218638
+factchecks/FakeRecogna,category,política,not_fake,2136,3904,0.5471311475409836
+factchecks/FakeRecogna,category,saúde,not_fake,3320,4439,0.7479161973417436
+factchecks/central_de_fatos,domain,aosfatos.org,fake,1409,1430,0.9853146853146854
+factchecks/central_de_fatos,domain,boatos.org,fake,5468,5468,1.0
+factchecks/central_de_fatos,domain,estadao.com.br,fake,593,593,1.0
+factchecks/central_de_fatos,domain,globo.com,fake,781,785,0.9949044585987261
+factchecks/central_de_fatos,domain,projetocomprova.com.br,fake,346,361,0.9584487534626038
+factchecks/central_de_fatos,domain,uol.com.br,fake,1689,1824,0.9259868421052632
+factchecks/central_de_fatos,category,brasil,fake,1076,1076,1.0
+factchecks/central_de_fatos,category,checamos,fake,118,136,0.8676470588235294
+factchecks/central_de_fatos,category,ciência,fake,78,78,1.0
+factchecks/central_de_fatos,category,coronavírus,fake,215,215,1.0
+factchecks/central_de_fatos,category,eleições,fake,29,30,0.9666666666666667
+factchecks/central_de_fatos,category,entretenimento,fake,460,460,1.0
+factchecks/central_de_fatos,category,esporte,fake,215,215,1.0
+factchecks/central_de_fatos,category,institucional,fake,5,5,1.0
+factchecks/central_de_fatos,category,lista,fake,37,37,1.0
+factchecks/central_de_fatos,category,mundo,fake,546,546,1.0
+factchecks/central_de_fatos,category,nas redes,fake,1285,1285,1.0
+factchecks/central_de_fatos,category,opinião,fake,43,43,1.0
+factchecks/central_de_fatos,category,pandemia,fake,201,207,0.9710144927536232
+factchecks/central_de_fatos,category,política,fake,1545,1545,1.0
+factchecks/central_de_fatos,category,políticas públicas,fake,99,107,0.9252336448598131
+factchecks/central_de_fatos,category,religião,fake,267,267,1.0
+factchecks/central_de_fatos,category,saúde,fake,652,652,1.0
+factchecks/central_de_fatos,category,tecnologia,fake,549,549,1.0
+factchecks/central_de_fatos,category,verificação,fake,16,16,1.0
+factchecks/fact_check_tweet_pt,domain,afp.com,fake,39,60,0.65
+factchecks/fact_check_tweet_pt,domain,aosfatos.org,fake,96,135,0.7111111111111111
+factchecks/fact_check_tweet_pt,domain,boatos.org,fake,38,45,0.8444444444444444
+factchecks/fact_check_tweet_pt,domain,estadao.com.br,fake,38,70,0.5428571428571428
+factchecks/fact_check_tweet_pt,domain,globo.com,not_fake,27,27,1.0
+factchecks/fact_check_tweet_pt,domain,observador.pt,fake,18,26,0.6923076923076923
+factchecks/fact_check_tweet_pt,domain,sapo.pt,not_fake,44,73,0.6027397260273972
+factchecks/fact_check_tweet_pt,domain,uol.com.br,fake,140,214,0.6542056074766355
+factchecks/fakebr,domain,afolhabrasil.com.br,fake,174,174,1.0
+factchecks/fakebr,domain,alias.estadao.com.br,not_fake,29,29,1.0
+factchecks/fakebr,domain,brasil.estadao.com.br,not_fake,46,46,1.0
+factchecks/fakebr,domain,ceticismopolitico.com,fake,16,16,1.0
+factchecks/fakebr,domain,ciencia.estadao.com.br,not_fake,5,5,1.0
+factchecks/fakebr,domain,cultura.estadao.com.br,not_fake,95,95,1.0
+factchecks/fakebr,domain,diariodobrasil.org,fake,3337,3337,1.0
+factchecks/fakebr,domain,economia.estadao.com.br,not_fake,51,51,1.0
+factchecks/fakebr,domain,educacao.estadao.com.br,not_fake,7,7,1.0
+factchecks/fakebr,domain,esportes.estadao.com.br,not_fake,30,30,1.0
+factchecks/fakebr,domain,estadao.com.br,not_fake,7,7,1.0
+factchecks/fakebr,domain,g1.globo.com,not_fake,2300,2300,1.0
+factchecks/fakebr,domain,internacional.estadao.com.br,not_fake,114,114,1.0
+factchecks/fakebr,domain,opiniao.estadao.com.br,not_fake,11,11,1.0
+factchecks/fakebr,domain,politica.estadao.com.br,not_fake,753,753,1.0
+factchecks/fakebr,domain,sao-paulo.estadao.com.br,not_fake,16,16,1.0
+factchecks/fakebr,domain,saude.estadao.com.br,not_fake,15,15,1.0
+factchecks/fakebr,domain,sustentabilidade.estadao.com.br,not_fake,13,13,1.0
+factchecks/fakebr,domain,thejornalbrasil.com.br,fake,66,66,1.0
+factchecks/fakebr,domain,topfivetv.com,fake,7,7,1.0
+factchecks/fakebr,domain,viagem.estadao.com.br,not_fake,5,5,1.0
+factchecks/fakebr,domain,www1.folha.uol.com.br,not_fake,91,91,1.0
+factchecks/fakebr,author,Andreza Matais,not_fake,5,5,1.0
+factchecks/fakebr,author,"Carla Araújo, O Estado de S.Paulo",not_fake,5,5,1.0
+factchecks/fakebr,author,Coluna do Estadão,not_fake,7,7,1.0
+factchecks/fakebr,author,"Daiene Cardoso, O Estado de S.Paulo",not_fake,5,5,1.0
+factchecks/fakebr,author,Daniel Carvalho,not_fake,5,5,1.0
+factchecks/fakebr,author,"Daniel Weterman, O Estado de S.Paulo",not_fake,6,6,1.0
+factchecks/fakebr,author,Estado da Arte,not_fake,24,24,1.0
+factchecks/fakebr,author,Fátima Lacerda,not_fake,9,9,1.0
+factchecks/fakebr,author,Josias Oliveira,fake,68,68,1.0
+factchecks/fakebr,author,José Fucs,not_fake,6,6,1.0
+factchecks/fakebr,author,José Nêumanne,not_fake,173,173,1.0
+factchecks/fakebr,author,Julia Affonso,not_fake,7,7,1.0
+factchecks/fakebr,author,Julia Affonso e Fausto Macedo,not_fake,7,7,1.0
+factchecks/fakebr,author,Julia Affonso e Luiz Vassallo,not_fake,5,5,1.0
+factchecks/fakebr,author,Julia Affonso e Ricardo Brandt,not_fake,8,8,1.0
+factchecks/fakebr,author,"Julia Lindner, O Estado de S.Paulo",not_fake,5,5,1.0
+factchecks/fakebr,author,Luiz Vassallo,not_fake,12,12,1.0
+factchecks/fakebr,author,Luiz Vassallo e Julia Affonso,not_fake,6,6,1.0
+factchecks/fakebr,author,Luiza Pollo,not_fake,7,7,1.0
+factchecks/fakebr,author,"Marianna Holanda, O Estado de S.Paulo",not_fake,5,5,1.0
+factchecks/fakebr,author,Marina Dias,not_fake,5,5,1.0
+factchecks/fakebr,author,"Mateus Coutinho, Julia Affonso e Fausto Macedo",not_fake,5,5,1.0
+factchecks/fakebr,author,O Estado de S. Paulo,not_fake,20,20,1.0
+factchecks/fakebr,author,O Estado de S.Paulo,not_fake,71,71,1.0
+factchecks/fakebr,author,Paulo Silvestre,not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Adneison Severiano, G1 AM, Manaus",not_fake,6,6,1.0
+factchecks/fakebr,author,Por Agencia EFE,not_fake,8,8,1.0
+factchecks/fakebr,author,"Por Alessandra Modzeleski, G1, Brasília",not_fake,7,7,1.0
+factchecks/fakebr,author,"Por Alexandro Martello, G1, Brasília",not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Ana Carolina Moreno, G1",not_fake,7,7,1.0
+factchecks/fakebr,author,Por BBC,not_fake,235,235,1.0
+factchecks/fakebr,author,"Por Bernardo Caram, G1, Brasília",not_fake,20,20,1.0
+factchecks/fakebr,author,"Por Camila Bomfim, TV Globo, Brasília",not_fake,9,9,1.0
+factchecks/fakebr,author,"Por Darlan Alvarenga, G1",not_fake,10,10,1.0
+factchecks/fakebr,author,Por Deutsche Welle,not_fake,21,21,1.0
+factchecks/fakebr,author,"Por Fabiano Costa, G1, Brasília",not_fake,15,15,1.0
+factchecks/fakebr,author,"Por Fernanda Calgaro, G1, Brasília",not_fake,17,17,1.0
+factchecks/fakebr,author,"Por Flávia Cristini, G1 MG, Belo Horizonte",not_fake,5,5,1.0
+factchecks/fakebr,author,Por France Presse,not_fake,16,16,1.0
+factchecks/fakebr,author,Por G1,not_fake,331,331,1.0
+factchecks/fakebr,author,Por G1 AM,not_fake,10,10,1.0
+factchecks/fakebr,author,Por G1 BA,not_fake,19,19,1.0
+factchecks/fakebr,author,Por G1 Campinas e Região,not_fake,8,8,1.0
+factchecks/fakebr,author,Por G1 DF,not_fake,6,6,1.0
+factchecks/fakebr,author,Por G1 Itapetininga e Região,not_fake,10,10,1.0
+factchecks/fakebr,author,"Por G1 MG, Belo Horizonte",not_fake,11,11,1.0
+factchecks/fakebr,author,Por G1 MS,not_fake,5,5,1.0
+factchecks/fakebr,author,Por G1 PE,not_fake,8,8,1.0
+factchecks/fakebr,author,Por G1 PR,not_fake,8,8,1.0
+factchecks/fakebr,author,"Por G1 PR, Curitiba",not_fake,41,41,1.0
+factchecks/fakebr,author,Por G1 RN,not_fake,6,6,1.0
+factchecks/fakebr,author,Por G1 RS,not_fake,48,48,1.0
+factchecks/fakebr,author,Por G1 RS e RBS TV,not_fake,5,5,1.0
+factchecks/fakebr,author,Por G1 Ribeirão e Franca,not_fake,12,12,1.0
+factchecks/fakebr,author,Por G1 Rio,not_fake,15,15,1.0
+factchecks/fakebr,author,Por G1 SP,not_fake,16,16,1.0
+factchecks/fakebr,author,"Por G1 SP, São Paulo",not_fake,13,13,1.0
+factchecks/fakebr,author,Por G1 Santos,not_fake,7,7,1.0
+factchecks/fakebr,author,Por G1 São Carlos e Araraquara,not_fake,5,5,1.0
+factchecks/fakebr,author,Por G1 São Paulo,not_fake,17,17,1.0
+factchecks/fakebr,author,Por G1 Tocantins,not_fake,6,6,1.0
+factchecks/fakebr,author,Por G1 Zona da Mata,not_fake,6,6,1.0
+factchecks/fakebr,author,"Por G1 e TV Globo, Brasília",not_fake,12,12,1.0
+factchecks/fakebr,author,"Por G1, Brasília",not_fake,86,86,1.0
+factchecks/fakebr,author,"Por G1, São Paulo",not_fake,11,11,1.0
+factchecks/fakebr,author,"Por Gabriel Luiz, G1 DF",not_fake,6,6,1.0
+factchecks/fakebr,author,"Por Guilherme Mazui, G1, Brasília",not_fake,19,19,1.0
+factchecks/fakebr,author,"Por Gustavo Aguiar, G1, Brasília",not_fake,6,6,1.0
+factchecks/fakebr,author,"Por Gustavo Garcia, G1, Brasília",not_fake,43,43,1.0
+factchecks/fakebr,author,"Por Helton Simões Gomes, G1",not_fake,5,5,1.0
+factchecks/fakebr,author,Por Jornal Nacional,not_fake,8,8,1.0
+factchecks/fakebr,author,Por Jornal da EPTV 2ª Edição,not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Luciana Amaral, G1, Brasília",not_fake,10,10,1.0
+factchecks/fakebr,author,"Por Luiza Garonce, G1 DF",not_fake,9,9,1.0
+factchecks/fakebr,author,"Por Luísa Melo, G1",not_fake,6,6,1.0
+factchecks/fakebr,author,"Por Marco Antônio Martins, G1 Rio",not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Mariana Oliveira, TV Globo, Brasília",not_fake,19,19,1.0
+factchecks/fakebr,author,"Por Mateus Rodrigues, G1 DF",not_fake,7,7,1.0
+factchecks/fakebr,author,"Por Murillo Velasco, G1 GO",not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Patricia Teixeira, G1 Rio",not_fake,6,6,1.0
+factchecks/fakebr,author,"Por Paula Resende, G1 GO",not_fake,10,10,1.0
+factchecks/fakebr,author,Por RJTV,not_fake,6,6,1.0
+factchecks/fakebr,author,"Por Raquel Morais, G1 DF",not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Renan Ramalho e Fernanda Calgaro, G1, Brasília",not_fake,7,7,1.0
+factchecks/fakebr,author,"Por Renan Ramalho, G1, Brasília",not_fake,50,50,1.0
+factchecks/fakebr,author,Por Reuters,not_fake,8,8,1.0
+factchecks/fakebr,author,"Por Rodrigo Ortega, G1",not_fake,6,6,1.0
+factchecks/fakebr,author,"Por Rosanne DAgostino, G1, São Paulo",not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Tahiane Stochero, G1 São Paulo",not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Taís Laporta, G1",not_fake,5,5,1.0
+factchecks/fakebr,author,"Por Vanessa Martins, G1 GO",not_fake,6,6,1.0
+factchecks/fakebr,author,Redação,not_fake,12,12,1.0
+factchecks/fakebr,author,Redação Internacional,not_fake,5,5,1.0
+factchecks/fakebr,author,Renan Ramalho,not_fake,10,10,1.0
+factchecks/fakebr,author,Ricardo Brandt e Julia Affonso,not_fake,8,8,1.0
+factchecks/fakebr,author,"Ricardo Brandt, Fausto Macedo e Julia Affonso",not_fake,5,5,1.0
+factchecks/fakebr,author,"Ricardo Brandt, Julia Affonso e Fausto Macedo",not_fake,7,7,1.0
+factchecks/fakebr,author,"Ricardo Brandt, Julia Affonso, Fausto Macedo e Luiz Vassallo",not_fake,9,9,1.0
+factchecks/fakebr,author,Sonia Racy,not_fake,7,7,1.0
+factchecks/fakebr,author,"Vera Rosa, O Estado de S.Paulo",not_fake,9,9,1.0
+factchecks/fakebr,category,ciencia_tecnologia,fake,56,112,0.5
+factchecks/fakebr,category,economia,fake,22,44,0.5
+factchecks/fakebr,category,politica,fake,2090,4180,0.5
+factchecks/fakebr,category,religiao,fake,22,44,0.5
+factchecks/fakebr,category,sociedade_cotidiano,fake,638,1276,0.5
+factchecks/fakebr,category,tv_celebridades,fake,772,1544,0.5
+fakerecogna/original,domain,boatos.org,fake,2484,2484,1.0
+fakerecogna/original,domain,checamos.afp.com,fake,503,503,1.0
+fakerecogna/original,domain,e-farsas.com,fake,804,804,1.0
+fakerecogna/original,domain,economia.uol.com.br,real,312,312,1.0
+fakerecogna/original,domain,educacao.uol.com.br,real,43,43,1.0
+fakerecogna/original,domain,entretenimento.uol.com.br,real,65,65,1.0
+fakerecogna/original,domain,extra.globo.com,real,223,223,1.0
+fakerecogna/original,domain,g1.globo.com,fake,1184,2284,0.5183887915936952
+fakerecogna/original,domain,gov.br,real,215,215,1.0
+fakerecogna/original,domain,noticias.uol.com.br,real,3437,4025,0.8539130434782609
+fakerecogna/original,domain,projetocomprova.com.br,fake,388,388,1.0
+fakerecogna/original,domain,tvefamosos.uol.com.br,real,64,64,1.0
+fakerecogna/original,domain,uol.com.br,real,488,488,1.0
+fakerecogna/original,author,"AFP Argentina, Nadia Nasanovsky, AFP Brasil",fake,5,5,1.0
+fakerecogna/original,author,AFP Brasil,fake,297,297,1.0
+fakerecogna/original,author,"AFP Colombia, AFP Brasil",fake,5,5,1.0
+fakerecogna/original,author,AFP México,fake,5,5,1.0
+fakerecogna/original,author,"AFP México, AFP Brasil",fake,6,6,1.0
+fakerecogna/original,author,Abinoan Santiago,real,8,8,1.0
+fakerecogna/original,author,Alex Tajra,real,11,11,1.0
+fakerecogna/original,author,Aliny Gama,real,11,11,1.0
+fakerecogna/original,author,Amanda Pupo,real,6,6,1.0
+fakerecogna/original,author,Ana Carla Bermúdez,real,9,9,1.0
+fakerecogna/original,author,Anaís Motta,real,6,6,1.0
+fakerecogna/original,author,André Borges,real,5,5,1.0
+fakerecogna/original,author,André Shalders,real,6,6,1.0
+fakerecogna/original,author,Andréia Martins,real,4,5,0.8
+fakerecogna/original,author,Anita Grando Martins,fake,33,33,1.0
+fakerecogna/original,author,Anne Warth,real,8,8,1.0
+fakerecogna/original,author,Antonio Temóteo,real,11,11,1.0
+fakerecogna/original,author,Arthur Sandes,real,5,5,1.0
+fakerecogna/original,author,Beatriz Montesanti,fake,5,7,0.7142857142857143
+fakerecogna/original,author,Bernardo Barbosa,fake,6,6,1.0
+fakerecogna/original,author,Bloomberg News,real,5,5,1.0
+fakerecogna/original,author,Bruno Alfano,real,6,6,1.0
+fakerecogna/original,author,Caio Blois,real,8,8,1.0
+fakerecogna/original,author,Camila Turtelli,real,12,12,1.0
+fakerecogna/original,author,Carina Martins,real,5,5,1.0
+fakerecogna/original,author,Carlos Madeiro,real,32,34,0.9411764705882353
+fakerecogna/original,author,Carol Lira,fake,142,142,1.0
+fakerecogna/original,author,Carolina Marins,real,8,8,1.0
+fakerecogna/original,author,Colaboração para o UOL,real,5,5,1.0
+fakerecogna/original,author,"Colaboração para o UOL, em Curitiba",fake,16,16,1.0
+fakerecogna/original,author,"Colaboração para o UOL, em São Paulo",fake,19,22,0.8636363636363636
+fakerecogna/original,author,Comprova,fake,388,388,1.0
+fakerecogna/original,author,Convidado,fake,5,5,1.0
+fakerecogna/original,author,Da Agência Brasil,real,7,7,1.0
+fakerecogna/original,author,Da Agência Lupa,fake,13,13,1.0
+fakerecogna/original,author,Daniel Weterman,real,17,17,1.0
+fakerecogna/original,author,"Do UOL, em São Paulo",fake,88,147,0.5986394557823129
+fakerecogna/original,author,"Do UOL, em São Paulo*",fake,71,76,0.9342105263157895
+fakerecogna/original,author,Edgard Matsuki,fake,1499,1499,1.0
+fakerecogna/original,author,Eduardo Militão,real,13,13,1.0
+fakerecogna/original,author,Eduardo Simões,real,7,7,1.0
+fakerecogna/original,author,Emilly Behnke,real,10,10,1.0
+fakerecogna/original,author,Evelin Azevedo,real,26,26,1.0
+fakerecogna/original,author,Extra,real,61,61,1.0
+fakerecogna/original,author,Fabiana Cambricoli,real,7,7,1.0
+fakerecogna/original,author,Felipe Amorim,real,23,24,0.9583333333333334
+fakerecogna/original,author,Felipe Frazão,real,8,8,1.0
+fakerecogna/original,author,Felipe Pereira,real,21,21,1.0
+fakerecogna/original,author,Felipe Pereira e Patrick Mesquita,real,6,6,1.0
+fakerecogna/original,author,Filipe Vidon,real,5,5,1.0
+fakerecogna/original,author,Fábio Grellet,real,6,6,1.0
+fakerecogna/original,author,Gabriel Sabóia,real,11,11,1.0
+fakerecogna/original,author,Gilmar Lopes,fake,55,55,1.0
+fakerecogna/original,author,Giovana Girardi,real,6,6,1.0
+fakerecogna/original,author,Giulia Granchi,real,6,6,1.0
+fakerecogna/original,author,Guilherme Mazieiro,real,13,13,1.0
+fakerecogna/original,author,Hanrrikson de Andrade,real,13,13,1.0
+fakerecogna/original,author,Hellen Bizerra,fake,25,25,1.0
+fakerecogna/original,author,Herculano Barreto Filho,real,7,7,1.0
+fakerecogna/original,author,Idiana Tomazelli,real,8,8,1.0
+fakerecogna/original,author,Igor Mello,real,13,13,1.0
+fakerecogna/original,author,José Maria Tomazela,real,5,5,1.0
+fakerecogna/original,author,João José Oliveira,real,7,7,1.0
+fakerecogna/original,author,Julia Lindner,real,8,8,1.0
+fakerecogna/original,author,Juliana Arreguy,fake,5,7,0.7142857142857143
+fakerecogna/original,author,Juliana Arreguy e Beatriz Montesanti,fake,8,8,1.0
+fakerecogna/original,author,Jussara Soares,real,7,7,1.0
+fakerecogna/original,author,Kyene Becker,fake,599,599,1.0
+fakerecogna/original,author,Leonardo Martins,real,15,15,1.0
+fakerecogna/original,author,"Louis Baudoin-Laarman, AFP Estados Unidos",fake,5,5,1.0
+fakerecogna/original,author,Lucas Borges Teixeira,fake,107,125,0.856
+fakerecogna/original,author,Luci Ribeiro,real,7,7,1.0
+fakerecogna/original,author,Luciana Amaral,real,31,31,1.0
+fakerecogna/original,author,Luís Adorno,real,5,5,1.0
+fakerecogna/original,author,Marcela Lemos,real,8,8,1.0
+fakerecogna/original,author,Marcelo Oliveira,real,11,12,0.9166666666666666
+fakerecogna/original,author,"Marion Dautry, AFP Belgrado",fake,7,7,1.0
+fakerecogna/original,author,Marlla Sabino,real,5,5,1.0
+fakerecogna/original,author,Mateus Vargas,real,10,10,1.0
+fakerecogna/original,author,Ministério da Saúde(61) 3315-3580 / 2351,real,26,26,1.0
+fakerecogna/original,author,Ministério da Saúde(61) 3315-3587 / 3580,real,7,7,1.0
+fakerecogna/original,author,Naian Lopes,real,5,5,1.0
+fakerecogna/original,author,Nathan Lopes,real,24,24,1.0
+fakerecogna/original,author,Natália Lázaro,real,10,10,1.0
+fakerecogna/original,author,Paulo Roberto Netto,real,13,13,1.0
+fakerecogna/original,author,Pedro Caramuru,real,9,9,1.0
+fakerecogna/original,author,"Por Alessandro Feitosa Jr, G1",real,5,5,1.0
+fakerecogna/original,author,"Por Alexandro Martello, G1 — Brasília",real,7,7,1.0
+fakerecogna/original,author,Por BBC,real,88,88,1.0
+fakerecogna/original,author,"Por Carolina Dantas, G1",real,6,6,1.0
+fakerecogna/original,author,"Por Elida Oliveira, G1",real,5,5,1.0
+fakerecogna/original,author,Por Extra,fake,6,6,1.0
+fakerecogna/original,author,"Por Felipe Grandin, G1",fake,5,6,0.8333333333333334
+fakerecogna/original,author,"Por Fernanda Vivas e Márcio Falcão, TV Globo — Brasília",real,20,20,1.0
+fakerecogna/original,author,"Por Fernanda Vivas, TV Globo — Brasília",real,7,7,1.0
+fakerecogna/original,author,Por France Presse,real,42,42,1.0
+fakerecogna/original,author,Por G1,real,315,541,0.5822550831792976
+fakerecogna/original,author,Por G1 SP — São Paulo,real,6,6,1.0
+fakerecogna/original,author,Por G1 e O Globo,fake,9,9,1.0
+fakerecogna/original,author,Por G1 — Brasília,real,25,25,1.0
+fakerecogna/original,author,Por G1 — São Paulo,real,12,13,0.9230769230769231
+fakerecogna/original,author,"Por G1, O Globo, Extra, TV Globo, CBN, Valor e GloboNews",fake,90,90,1.0
+fakerecogna/original,author,"Por G1, O Globo, TV Globo e GloboNews",fake,22,22,1.0
+fakerecogna/original,author,"Por Gabriela Caesar, G1",fake,12,13,0.9230769230769231
+fakerecogna/original,author,"Por Gisele Barros, O Globo",fake,8,8,1.0
+fakerecogna/original,author,"Por Guilherme Mazui, G1 — Brasília",real,9,9,1.0
+fakerecogna/original,author,"Por Gustavo Garcia e Sara Resende, G1 e TV Globo — Brasília",real,5,5,1.0
+fakerecogna/original,author,"Por Hellen Guimarães, O Globo",fake,19,19,1.0
+fakerecogna/original,author,"Por Isabela Aleixo, O Globo",fake,12,12,1.0
+fakerecogna/original,author,"Por Lara Pinheiro, G1",real,11,11,1.0
+fakerecogna/original,author,"Por Laís Lis, G1 — Brasília",real,18,18,1.0
+fakerecogna/original,author,"Por Laís Modelli, G1",real,5,7,0.7142857142857143
+fakerecogna/original,author,"Por Laís Modelli, Roney Domingos, Thiago Reis, Gabriel Morais, Gisele Gomes, Chandy Teixeira e Vinícius Cassela, G1, O Globo, GloboNews e TV Globo",fake,9,9,1.0
+fakerecogna/original,author,"Por Letícia Lopes, O Globo e G1",fake,5,5,1.0
+fakerecogna/original,author,"Por Luiz Felipe Barbiéri, G1 — Brasília",real,7,7,1.0
+fakerecogna/original,author,"Por Marcelo Parreira, TV Globo",fake,22,22,1.0
+fakerecogna/original,author,"Por Mariana Oliveira, TV Globo — Brasília",real,6,6,1.0
+fakerecogna/original,author,"Por Marlen Couto, O Globo",fake,6,6,1.0
+fakerecogna/original,author,"Por Márcio Falcão e Fernanda Vivas, TV Globo — Brasília",real,20,20,1.0
+fakerecogna/original,author,Por O Globo,fake,27,27,1.0
+fakerecogna/original,author,"Por Patrícia Fiúza, G1 Minas — Belo Horizonte",fake,10,10,1.0
+fakerecogna/original,author,"Por Pedro Henrique Gomes, G1 — Brasília",real,9,9,1.0
+fakerecogna/original,author,Por RFI,real,13,13,1.0
+fakerecogna/original,author,Por Renata Lo Prete,real,5,5,1.0
+fakerecogna/original,author,Por Reuters,real,27,27,1.0
+fakerecogna/original,author,"Por Roberta Pennafort, CBN",fake,195,195,1.0
+fakerecogna/original,author,"Por Roberta Pennnafort, CBN",fake,11,11,1.0
+fakerecogna/original,author,"Por Roney Domingos, Camila Zarur, Vinícius Cassela e Marcelo Gomes, G1, O Globo, TV Globo e GloboNews",fake,6,6,1.0
+fakerecogna/original,author,"Por Roney Domingos, G1",fake,321,321,1.0
+fakerecogna/original,author,"Por Roney Domingos, Gabriel Morais, Vinícius Cassela e Marcelo Gomes, G1, O Globo, TV Globo e GloboNews",fake,5,5,1.0
+fakerecogna/original,author,"Por Rosanne D'Agostino, G1 — Brasília",real,11,11,1.0
+fakerecogna/original,author,"Por Thaís Matos, G1",fake,61,61,1.0
+fakerecogna/original,author,Rafael Moraes Moura,real,9,9,1.0
+fakerecogna/original,author,Raiane Gonoli,fake,214,214,1.0
+fakerecogna/original,author,Rayssa Motta,real,10,10,1.0
+fakerecogna/original,author,Redação,real,12,12,1.0
+fakerecogna/original,author,"Redação, O Estado de S.Paulo",real,8,8,1.0
+fakerecogna/original,author,Ricardo Brito,real,6,6,1.0
+fakerecogna/original,author,Rio de Janeiro,real,14,14,1.0
+fakerecogna/original,author,Simone Machado,real,6,6,1.0
+fakerecogna/original,author,UOL Notícias,fake,5,5,1.0
+fakerecogna/original,author,Wanderley Preite Sobrinho,real,15,15,1.0
+fakerecogna/original,author,gilmar lopes,fake,478,478,1.0
+fakerecogna/original,author,marco faustino,fake,269,269,1.0
+fakerecogna/original,category,brasil,fake,830,904,0.918141592920354
+fakerecogna/original,category,ciência,real,417,602,0.6926910299003323
+fakerecogna/original,category,entretenimento,fake,1409,1409,1.0
+fakerecogna/original,category,mundo,fake,576,580,0.993103448275862
+fakerecogna/original,category,política,real,2136,3951,0.5406226271829917
+fakerecogna/original,category,saúde,real,3320,4456,0.7450628366247756

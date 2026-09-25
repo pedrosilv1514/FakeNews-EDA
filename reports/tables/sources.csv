@@ -1,0 +1,138 @@
+dataset,field,value,count,percent
+factchecks/FakeNewsSet,domain,globo.com,279,46.656
+factchecks/FakeNewsSet,domain,uol.com.br,143,23.913
+factchecks/FakeNewsSet,domain,aosfatos.org,142,23.746
+factchecks/FakeNewsSet,domain,r7.com,12,2.007
+factchecks/FakeNewsSet,domain,apublica.org,11,1.839
+factchecks/FakeNewsSet,domain,afp.com,10,1.672
+factchecks/FakeNewsSet,domain,ricmais.com.br,1,0.167
+factchecks/FakeRecogna,domain,uol.com.br,4987,42.36
+factchecks/FakeRecogna,domain,globo.com,2451,20.819
+factchecks/FakeRecogna,domain,boatos.org,2425,20.598
+factchecks/FakeRecogna,domain,r7.com,804,6.829
+factchecks/FakeRecogna,domain,afp.com,503,4.272
+factchecks/FakeRecogna,domain,projetocomprova.com.br,388,3.296
+factchecks/FakeRecogna,domain,gov.br,215,1.826
+factchecks/FakeRecogna,author,Edgard Matsuki,1459,12.393
+factchecks/FakeRecogna,author,Kyene Becker,585,4.969
+factchecks/FakeRecogna,author,G1,519,4.408
+factchecks/FakeRecogna,author,gilmar lopes,478,4.06
+factchecks/FakeRecogna,author,Comprova,388,3.296
+factchecks/FakeRecogna,author,"Roney Domingos, G1",308,2.616
+factchecks/FakeRecogna,author,AFP Brasil,297,2.523
+factchecks/FakeRecogna,author,marco faustino,269,2.285
+factchecks/FakeRecogna,author,Raiane Gonoli,209,1.775
+factchecks/FakeRecogna,author,"Roberta Pennafort, CBN",187,1.588
+factchecks/FakeRecogna,author,"Do UOL, em São Paulo",145,1.232
+factchecks/FakeRecogna,author,Carol Lira,142,1.206
+factchecks/FakeRecogna,author,Lucas Borges Teixeira,119,1.011
+factchecks/FakeRecogna,author,"G1, O Globo, Extra, TV Globo, CBN, Valor e GloboNews",90,0.764
+factchecks/FakeRecogna,author,BBC,88,0.747
+factchecks/FakeRecogna,category,saúde,4439,37.705
+factchecks/FakeRecogna,category,política,3904,33.161
+factchecks/FakeRecogna,category,entretenimento,1383,11.747
+factchecks/FakeRecogna,category,brasil,890,7.56
+factchecks/FakeRecogna,category,ciência,599,5.088
+factchecks/FakeRecogna,category,mundo,558,4.74
+factchecks/central_de_fatos,domain,boatos.org,5468,52.27
+factchecks/central_de_fatos,domain,uol.com.br,1824,17.436
+factchecks/central_de_fatos,domain,aosfatos.org,1430,13.67
+factchecks/central_de_fatos,domain,globo.com,785,7.504
+factchecks/central_de_fatos,domain,estadao.com.br,593,5.669
+factchecks/central_de_fatos,domain,projetocomprova.com.br,361,3.451
+factchecks/central_de_fatos,category,política,1545,14.769
+factchecks/central_de_fatos,category,nas redes,1285,12.284
+factchecks/central_de_fatos,category,brasil,1076,10.286
+factchecks/central_de_fatos,category,saúde,652,6.233
+factchecks/central_de_fatos,category,tecnologia,549,5.248
+factchecks/central_de_fatos,category,mundo,546,5.219
+factchecks/central_de_fatos,category,entretenimento,460,4.397
+factchecks/central_de_fatos,category,religião,267,2.552
+factchecks/central_de_fatos,category,coronavírus,215,2.055
+factchecks/central_de_fatos,category,esporte,215,2.055
+factchecks/central_de_fatos,category,pandemia,207,1.979
+factchecks/central_de_fatos,category,checamos,136,1.3
+factchecks/central_de_fatos,category,políticas públicas,107,1.023
+factchecks/central_de_fatos,category,ciência,78,0.746
+factchecks/central_de_fatos,category,opinião,43,0.411
+factchecks/fact_check_tweet_pt,domain,uol.com.br,214,32.622
+factchecks/fact_check_tweet_pt,domain,aosfatos.org,135,20.579
+factchecks/fact_check_tweet_pt,domain,sapo.pt,73,11.128
+factchecks/fact_check_tweet_pt,domain,estadao.com.br,70,10.671
+factchecks/fact_check_tweet_pt,domain,afp.com,60,9.146
+factchecks/fact_check_tweet_pt,domain,boatos.org,45,6.86
+factchecks/fact_check_tweet_pt,domain,globo.com,27,4.116
+factchecks/fact_check_tweet_pt,domain,observador.pt,26,3.963
+factchecks/fact_check_tweet_pt,domain,apublica.org,4,0.61
+factchecks/fact_check_tweet_pt,domain,projetocomprova.com.br,2,0.305
+factchecks/fakebr,domain,diariodobrasil.org,3337,46.347
+factchecks/fakebr,domain,g1.globo.com,2300,31.944
+factchecks/fakebr,domain,politica.estadao.com.br,753,10.458
+factchecks/fakebr,domain,afolhabrasil.com.br,174,2.417
+factchecks/fakebr,domain,internacional.estadao.com.br,114,1.583
+factchecks/fakebr,domain,cultura.estadao.com.br,95,1.319
+factchecks/fakebr,domain,www1.folha.uol.com.br,91,1.264
+factchecks/fakebr,domain,thejornalbrasil.com.br,66,0.917
+factchecks/fakebr,domain,economia.estadao.com.br,51,0.708
+factchecks/fakebr,domain,brasil.estadao.com.br,46,0.639
+factchecks/fakebr,domain,esportes.estadao.com.br,30,0.417
+factchecks/fakebr,domain,alias.estadao.com.br,29,0.403
+factchecks/fakebr,domain,ceticismopolitico.com,16,0.222
+factchecks/fakebr,domain,sao-paulo.estadao.com.br,16,0.222
+factchecks/fakebr,domain,saude.estadao.com.br,15,0.208
+factchecks/fakebr,author,Por G1,331,4.597
+factchecks/fakebr,author,Por BBC,235,3.264
+factchecks/fakebr,author,José Nêumanne,173,2.403
+factchecks/fakebr,author,"Por G1, Brasília",86,1.194
+factchecks/fakebr,author,O Estado de S.Paulo,71,0.986
+factchecks/fakebr,author,Josias Oliveira,68,0.944
+factchecks/fakebr,author,"Por Renan Ramalho, G1, Brasília",50,0.694
+factchecks/fakebr,author,Por G1 RS,48,0.667
+factchecks/fakebr,author,"Por Gustavo Garcia, G1, Brasília",43,0.597
+factchecks/fakebr,author,"Por G1 PR, Curitiba",41,0.569
+factchecks/fakebr,author,Estado da Arte,24,0.333
+factchecks/fakebr,author,Por Deutsche Welle,21,0.292
+factchecks/fakebr,author,"Por Bernardo Caram, G1, Brasília",20,0.278
+factchecks/fakebr,author,O Estado de S. Paulo,20,0.278
+factchecks/fakebr,author,"Por Mariana Oliveira, TV Globo, Brasília",19,0.264
+factchecks/fakebr,category,politica,4180,58.056
+factchecks/fakebr,category,tv_celebridades,1544,21.444
+factchecks/fakebr,category,sociedade_cotidiano,1276,17.722
+factchecks/fakebr,category,ciencia_tecnologia,112,1.556
+factchecks/fakebr,category,economia,44,0.611
+factchecks/fakebr,category,religiao,44,0.611
+fakerecogna/original,domain,noticias.uol.com.br,4025,33.815
+fakerecogna/original,domain,boatos.org,2484,20.869
+fakerecogna/original,domain,g1.globo.com,2284,19.188
+fakerecogna/original,domain,e-farsas.com,804,6.755
+fakerecogna/original,domain,checamos.afp.com,503,4.226
+fakerecogna/original,domain,uol.com.br,488,4.1
+fakerecogna/original,domain,projetocomprova.com.br,388,3.26
+fakerecogna/original,domain,economia.uol.com.br,312,2.621
+fakerecogna/original,domain,extra.globo.com,223,1.873
+fakerecogna/original,domain,gov.br,215,1.806
+fakerecogna/original,domain,entretenimento.uol.com.br,65,0.546
+fakerecogna/original,domain,tvefamosos.uol.com.br,64,0.538
+fakerecogna/original,domain,educacao.uol.com.br,43,0.361
+fakerecogna/original,domain,tab.uol.com.br,4,0.034
+fakerecogna/original,author,Edgard Matsuki,1499,12.593
+fakerecogna/original,author,Kyene Becker,599,5.032
+fakerecogna/original,author,Por G1,541,4.545
+fakerecogna/original,author,gilmar lopes,478,4.016
+fakerecogna/original,author,Comprova,388,3.26
+fakerecogna/original,author,"Por Roney Domingos, G1",321,2.697
+fakerecogna/original,author,AFP Brasil,297,2.495
+fakerecogna/original,author,marco faustino,269,2.26
+fakerecogna/original,author,Raiane Gonoli,214,1.798
+fakerecogna/original,author,"Por Roberta Pennafort, CBN",195,1.638
+fakerecogna/original,author,"Do UOL, em São Paulo",147,1.235
+fakerecogna/original,author,Carol Lira,142,1.193
+fakerecogna/original,author,Lucas Borges Teixeira,125,1.05
+fakerecogna/original,author,"Por G1, O Globo, Extra, TV Globo, CBN, Valor e GloboNews",90,0.756
+fakerecogna/original,author,Por BBC,88,0.739
+fakerecogna/original,category,saúde,4456,37.436
+fakerecogna/original,category,política,3951,33.193
+fakerecogna/original,category,entretenimento,1409,11.837
+fakerecogna/original,category,brasil,904,7.595
+fakerecogna/original,category,ciência,602,5.058
+fakerecogna/original,category,mundo,580,4.873

@@ -1,0 +1,7 @@
+dataset,records,columns,raw_labels,period_start,period_end,main_columns
+factchecks/FakeNewsSet,598,15,"-1, 1",,,"dataset, review_id, review_url, review_domain, claim_ids, is_fake, raw_label, label_semantic"
+factchecks/FakeRecogna,11773,18,"-1, 1",2018-08-29,2021-12-07,"dataset, review_id, review_text, review_author, review_url, review_domain, review_date, category"
+factchecks/central_de_fatos,10461,18,"-1, 0, 1",2013-01-07,2021-12-05,"dataset, review_id, review_text, review_author, review_url, review_domain, review_date, category"
+factchecks/fact_check_tweet_pt,656,15,"-1, 1",,,"dataset, review_id, review_url, review_domain, claim_ids, is_fake, raw_label, label_semantic"
+factchecks/fakebr,7200,16,"-1, 1",2009-06-01,2018-07-23,"dataset, claim_text, claim_author, claim_url, claim_date, category, is_fake, raw_label"
+fakerecogna/original,11903,20,"0.0, 1.0",2012-02-09,2021-12-07,"dataset, Titulo, Subtitulo, Noticia, Categoria, Data, Autor, URL"
