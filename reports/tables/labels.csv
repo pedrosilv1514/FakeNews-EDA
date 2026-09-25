@@ -1,0 +1,15 @@
+dataset,raw_label,label_semantic,count,percent
+factchecks/FakeNewsSet,-1,not_fake,298,49.833
+factchecks/FakeNewsSet,1,fake,300,50.167
+factchecks/FakeRecogna,-1,not_fake,5951,50.548
+factchecks/FakeRecogna,1,fake,5822,49.452
+factchecks/central_de_fatos,-1,not_fake,141,1.348
+factchecks/central_de_fatos,0,other,34,0.325
+factchecks/central_de_fatos,1,fake,10286,98.327
+factchecks/fact_check_tweet_pt,-1,not_fake,256,39.024
+factchecks/fact_check_tweet_pt,1,fake,400,60.976
+factchecks/fakebr,-1,not_fake,3600,50.0
+factchecks/fakebr,1,fake,3600,50.0
+fakerecogna/original,0.0,fake,5951,49.996
+fakerecogna/original,1.0,real,5951,49.996
+fakerecogna/original,,,1,0.008

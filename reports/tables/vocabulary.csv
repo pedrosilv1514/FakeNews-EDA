@@ -1,0 +1,676 @@
+dataset,label,method,ngram,term,score
+factchecks/FakeRecogna,fake,count,1-1,de,10978.0
+factchecks/FakeRecogna,fake,count,1-1,que,6306.0
+factchecks/FakeRecogna,fake,count,1-1,boato,4938.0
+factchecks/FakeRecogna,fake,count,1-1,em,4722.0
+factchecks/FakeRecogna,fake,count,1-1,do,3737.0
+factchecks/FakeRecogna,fake,count,1-1,da,3325.0
+factchecks/FakeRecogna,fake,count,1-1,vídeo,3174.0
+factchecks/FakeRecogna,fake,count,1-1,bolsonaro,3009.0
+factchecks/FakeRecogna,fake,count,1-1,covid,2887.0
+factchecks/FakeRecogna,fake,count,1-1,no,2785.0
+factchecks/FakeRecogna,fake,count,1-1,presidente,2536.0
+factchecks/FakeRecogna,fake,count,1-1,19,2509.0
+factchecks/FakeRecogna,fake,count,1-1,dia,2431.0
+factchecks/FakeRecogna,fake,count,1-1,para,2372.0
+factchecks/FakeRecogna,fake,count,1-1,brasil,2358.0
+factchecks/FakeRecogna,fake,count,1-1,social,2263.0
+factchecks/FakeRecogna,fake,count,1-1,não,2176.0
+factchecks/FakeRecogna,fake,count,1-1,com,2111.0
+factchecks/FakeRecogna,fake,count,1-1,por,2063.0
+factchecks/FakeRecogna,fake,count,1-1,um,1976.0
+factchecks/FakeRecogna,fake,count,1-1,na,1957.0
+factchecks/FakeRecogna,fake,count,1-1,mensagem,1883.0
+factchecks/FakeRecogna,fake,count,1-1,rede,1831.0
+factchecks/FakeRecogna,fake,count,1-1,fake,1784.0
+factchecks/FakeRecogna,fake,count,1-1,coronavírus,1699.0
+factchecks/FakeRecogna,not_fake,count,1-1,de,10292.0
+factchecks/FakeRecogna,not_fake,count,1-1,covid,4961.0
+factchecks/FakeRecogna,not_fake,count,1-1,19,4396.0
+factchecks/FakeRecogna,not_fake,count,1-1,coronavírus,4245.0
+factchecks/FakeRecogna,not_fake,count,1-1,que,3663.0
+factchecks/FakeRecogna,not_fake,count,1-1,saudar,3473.0
+factchecks/FakeRecogna,not_fake,count,1-1,presidente,3450.0
+factchecks/FakeRecogna,not_fake,count,1-1,do,3424.0
+factchecks/FakeRecogna,not_fake,count,1-1,da,3350.0
+factchecks/FakeRecogna,not_fake,count,1-1,bolsonaro,3200.0
+factchecks/FakeRecogna,not_fake,count,1-1,em,3195.0
+factchecks/FakeRecogna,not_fake,count,1-1,pandemia,2883.0
+factchecks/FakeRecogna,not_fake,count,1-1,dia,2834.0
+factchecks/FakeRecogna,not_fake,count,1-1,país,2768.0
+factchecks/FakeRecogna,not_fake,count,1-1,brasil,2709.0
+factchecks/FakeRecogna,not_fake,count,1-1,para,2573.0
+factchecks/FakeRecogna,not_fake,count,1-1,feira,2569.0
+factchecks/FakeRecogna,not_fake,count,1-1,governar,2282.0
+factchecks/FakeRecogna,not_fake,count,1-1,ano,2265.0
+factchecks/FakeRecogna,not_fake,count,1-1,vacinar,2216.0
+factchecks/FakeRecogna,not_fake,count,1-1,pessoa,2124.0
+factchecks/FakeRecogna,not_fake,count,1-1,hoje,2067.0
+factchecks/FakeRecogna,not_fake,count,1-1,haver,2031.0
+factchecks/FakeRecogna,not_fake,count,1-1,ministério,2004.0
+factchecks/FakeRecogna,not_fake,count,1-1,federal,1992.0
+factchecks/FakeRecogna,fake,count,2-2,covid 19,2438.0
+factchecks/FakeRecogna,fake,count,2-2,boato boato,2268.0
+factchecks/FakeRecogna,fake,count,2-2,rede social,1667.0
+factchecks/FakeRecogna,fake,count,2-2,circular rede,989.0
+factchecks/FakeRecogna,fake,count,2-2,redes sociais,824.0
+factchecks/FakeRecogna,fake,count,2-2,fake que,822.0
+factchecks/FakeRecogna,fake,count,2-2,jair bolsonaro,788.0
+factchecks/FakeRecogna,fake,count,2-2,presidente jair,573.0
+factchecks/FakeRecogna,fake,count,2-2,por whatsapp,492.0
+factchecks/FakeRecogna,fake,count,2-2,nos por,490.0
+factchecks/FakeRecogna,fake,count,2-2,whatsapp email,490.0
+factchecks/FakeRecogna,fake,count,2-2,envie nos,489.0
+factchecks/FakeRecogna,fake,count,2-2,nas redes,445.0
+factchecks/FakeRecogna,fake,count,2-2,ex presidente,413.0
+factchecks/FakeRecogna,fake,count,2-2,em redes,403.0
+factchecks/FakeRecogna,fake,count,2-2,contra covid,391.0
+factchecks/FakeRecogna,fake,count,2-2,no whatsapp,376.0
+factchecks/FakeRecogna,fake,count,2-2,diz que,362.0
+factchecks/FakeRecogna,fake,count,2-2,mais de,324.0
+factchecks/FakeRecogna,fake,count,2-2,vídeo mostra,304.0
+factchecks/FakeRecogna,fake,count,2-2,de um,289.0
+factchecks/FakeRecogna,fake,count,2-2,sociais desde,289.0
+factchecks/FakeRecogna,fake,count,2-2,novo coronavírus,285.0
+factchecks/FakeRecogna,fake,count,2-2,em um,275.0
+factchecks/FakeRecogna,fake,count,2-2,rir janeiro,271.0
+factchecks/FakeRecogna,not_fake,count,2-2,covid 19,4321.0
+factchecks/FakeRecogna,not_fake,count,2-2,jair bolsonaro,1259.0
+factchecks/FakeRecogna,not_fake,count,2-2,presidente jair,903.0
+factchecks/FakeRecogna,not_fake,count,2-2,ministério saudar,898.0
+factchecks/FakeRecogna,not_fake,count,2-2,pandemia coronavírus,691.0
+factchecks/FakeRecogna,not_fake,count,2-2,segunda feira,558.0
+factchecks/FakeRecogna,not_fake,count,2-2,quarta feira,528.0
+factchecks/FakeRecogna,not_fake,count,2-2,quinta feira,500.0
+factchecks/FakeRecogna,not_fake,count,2-2,terça feira,490.0
+factchecks/FakeRecogna,not_fake,count,2-2,sexta feira,487.0
+factchecks/FakeRecogna,not_fake,count,2-2,rir janeiro,443.0
+factchecks/FakeRecogna,not_fake,count,2-2,tribunal federal,428.0
+factchecks/FakeRecogna,not_fake,count,2-2,supremo tribunal,426.0
+factchecks/FakeRecogna,not_fake,count,2-2,governar federal,395.0
+factchecks/FakeRecogna,not_fake,count,2-2,vacinar covid,366.0
+factchecks/FakeRecogna,not_fake,count,2-2,rede social,354.0
+factchecks/FakeRecogna,not_fake,count,2-2,milhão dose,308.0
+factchecks/FakeRecogna,not_fake,count,2-2,contra covid,304.0
+factchecks/FakeRecogna,not_fake,count,2-2,diz que,300.0
+factchecks/FakeRecogna,not_fake,count,2-2,da saúde,293.0
+factchecks/FakeRecogna,not_fake,count,2-2,ministério público,285.0
+factchecks/FakeRecogna,not_fake,count,2-2,pandemia covid,279.0
+factchecks/FakeRecogna,not_fake,count,2-2,organização mundial,264.0
+factchecks/FakeRecogna,not_fake,count,2-2,isolamento social,263.0
+factchecks/FakeRecogna,not_fake,count,2-2,durante pandemia,257.0
+factchecks/FakeRecogna,fake,tfidf,1-2,de,190.4509850769466
+factchecks/FakeRecogna,fake,tfidf,1-2,que,128.48811463082765
+factchecks/FakeRecogna,fake,tfidf,1-2,boato,114.27883544402579
+factchecks/FakeRecogna,fake,tfidf,1-2,vídeo,110.38606552838984
+factchecks/FakeRecogna,fake,tfidf,1-2,em,107.25190781448408
+factchecks/FakeRecogna,fake,tfidf,1-2,bolsonaro,107.06783961504087
+factchecks/FakeRecogna,fake,tfidf,1-2,covid,94.35718474293115
+factchecks/FakeRecogna,fake,tfidf,1-2,do,91.95165288255458
+factchecks/FakeRecogna,fake,tfidf,1-2,da,86.95177884866548
+factchecks/FakeRecogna,fake,tfidf,1-2,19,83.66184523068735
+factchecks/FakeRecogna,fake,tfidf,1-2,covid 19,82.50324626488474
+factchecks/FakeRecogna,fake,tfidf,1-2,presidente,81.45466175421777
+factchecks/FakeRecogna,fake,tfidf,1-2,no,76.05682043861316
+factchecks/FakeRecogna,fake,tfidf,1-2,brasil,74.26430729517749
+factchecks/FakeRecogna,fake,tfidf,1-2,social,71.6697059015142
+factchecks/FakeRecogna,fake,tfidf,1-2,dia,70.47823935506443
+factchecks/FakeRecogna,fake,tfidf,1-2,para,70.44198014951236
+factchecks/FakeRecogna,fake,tfidf,1-2,não,66.44165133475249
+factchecks/FakeRecogna,fake,tfidf,1-2,mensagem,66.04580288112699
+factchecks/FakeRecogna,fake,tfidf,1-2,imagem,65.1356200890162
+factchecks/FakeRecogna,fake,tfidf,1-2,coronavírus,64.72978034646611
+factchecks/FakeRecogna,fake,tfidf,1-2,fake,63.75914944669496
+factchecks/FakeRecogna,fake,tfidf,1-2,foto,63.64767140803989
+factchecks/FakeRecogna,fake,tfidf,1-2,com,62.98242139826953
+factchecks/FakeRecogna,fake,tfidf,1-2,na,62.35170464985372
+factchecks/FakeRecogna,not_fake,tfidf,1-2,de,179.34814894530447
+factchecks/FakeRecogna,not_fake,tfidf,1-2,covid,122.47642502243862
+factchecks/FakeRecogna,not_fake,tfidf,1-2,bolsonaro,112.61954383856734
+factchecks/FakeRecogna,not_fake,tfidf,1-2,19,111.64334642181764
+factchecks/FakeRecogna,not_fake,tfidf,1-2,covid 19,110.35827596478872
+factchecks/FakeRecogna,not_fake,tfidf,1-2,coronavírus,109.00146515969024
+factchecks/FakeRecogna,not_fake,tfidf,1-2,presidente,102.52248771579983
+factchecks/FakeRecogna,not_fake,tfidf,1-2,saudar,101.76422715362271
+factchecks/FakeRecogna,not_fake,tfidf,1-2,que,94.90636542226717
+factchecks/FakeRecogna,not_fake,tfidf,1-2,vacinar,89.80737824081496
+factchecks/FakeRecogna,not_fake,tfidf,1-2,do,88.87234803749907
+factchecks/FakeRecogna,not_fake,tfidf,1-2,da,88.19714380293387
+factchecks/FakeRecogna,not_fake,tfidf,1-2,dia,85.85011489434957
+factchecks/FakeRecogna,not_fake,tfidf,1-2,país,85.16545225250806
+factchecks/FakeRecogna,not_fake,tfidf,1-2,brasil,85.02791424085001
+factchecks/FakeRecogna,not_fake,tfidf,1-2,pandemia,84.64902405537795
+factchecks/FakeRecogna,not_fake,tfidf,1-2,em,84.12060584377002
+factchecks/FakeRecogna,not_fake,tfidf,1-2,governar,75.6193319862681
+factchecks/FakeRecogna,not_fake,tfidf,1-2,ano,73.0608983763077
+factchecks/FakeRecogna,not_fake,tfidf,1-2,feira,72.83468178038791
+factchecks/FakeRecogna,not_fake,tfidf,1-2,para,71.84285067611023
+factchecks/FakeRecogna,not_fake,tfidf,1-2,pessoa,71.50036376316555
+factchecks/FakeRecogna,not_fake,tfidf,1-2,caso,69.54987197563005
+factchecks/FakeRecogna,not_fake,tfidf,1-2,ministério,68.34847773972473
+factchecks/FakeRecogna,not_fake,tfidf,1-2,hoje,67.56956841111138
+factchecks/central_de_fatos,fake,count,1-1,de,315895.0
+factchecks/central_de_fatos,fake,count,1-1,que,211390.0
+factchecks/central_de_fatos,fake,count,1-1,do,121386.0
+factchecks/central_de_fatos,fake,count,1-1,em,107454.0
+factchecks/central_de_fatos,fake,count,1-1,da,97550.0
+factchecks/central_de_fatos,fake,count,1-1,no,83186.0
+factchecks/central_de_fatos,fake,count,1-1,não,79299.0
+factchecks/central_de_fatos,fake,count,1-1,com,68679.0
+factchecks/central_de_fatos,fake,count,1-1,um,68526.0
+factchecks/central_de_fatos,fake,count,1-1,para,68000.0
+factchecks/central_de_fatos,fake,count,1-1,uma,65515.0
+factchecks/central_de_fatos,fake,count,1-1,na,61245.0
+factchecks/central_de_fatos,fake,count,1-1,por,48417.0
+factchecks/central_de_fatos,fake,count,1-1,se,41703.0
+factchecks/central_de_fatos,fake,count,1-1,foi,35636.0
+factchecks/central_de_fatos,fake,count,1-1,os,35007.0
+factchecks/central_de_fatos,fake,count,1-1,as,33653.0
+factchecks/central_de_fatos,fake,count,1-1,como,32967.0
+factchecks/central_de_fatos,fake,count,1-1,ao,31265.0
+factchecks/central_de_fatos,fake,count,1-1,mais,26252.0
+factchecks/central_de_fatos,fake,count,1-1,pelo,23290.0
+factchecks/central_de_fatos,fake,count,1-1,sobre,21932.0
+factchecks/central_de_fatos,fake,count,1-1,ou,21168.0
+factchecks/central_de_fatos,fake,count,1-1,dos,19891.0
+factchecks/central_de_fatos,fake,count,1-1,vídeo,19683.0
+factchecks/central_de_fatos,not_fake,count,1-1,de,5624.0
+factchecks/central_de_fatos,not_fake,count,1-1,que,2513.0
+factchecks/central_de_fatos,not_fake,count,1-1,do,2202.0
+factchecks/central_de_fatos,not_fake,count,1-1,em,1868.0
+factchecks/central_de_fatos,not_fake,count,1-1,da,1729.0
+factchecks/central_de_fatos,not_fake,count,1-1,no,1386.0
+factchecks/central_de_fatos,not_fake,count,1-1,para,1119.0
+factchecks/central_de_fatos,not_fake,count,1-1,na,886.0
+factchecks/central_de_fatos,not_fake,count,1-1,com,831.0
+factchecks/central_de_fatos,not_fake,count,1-1,não,768.0
+factchecks/central_de_fatos,not_fake,count,1-1,um,753.0
+factchecks/central_de_fatos,not_fake,count,1-1,uma,648.0
+factchecks/central_de_fatos,not_fake,count,1-1,por,600.0
+factchecks/central_de_fatos,not_fake,count,1-1,os,575.0
+factchecks/central_de_fatos,not_fake,count,1-1,as,562.0
+factchecks/central_de_fatos,not_fake,count,1-1,ao,553.0
+factchecks/central_de_fatos,not_fake,count,1-1,foi,515.0
+factchecks/central_de_fatos,not_fake,count,1-1,se,472.0
+factchecks/central_de_fatos,not_fake,count,1-1,como,406.0
+factchecks/central_de_fatos,not_fake,count,1-1,dos,384.0
+factchecks/central_de_fatos,not_fake,count,1-1,mais,368.0
+factchecks/central_de_fatos,not_fake,count,1-1,pelo,362.0
+factchecks/central_de_fatos,not_fake,count,1-1,governo,343.0
+factchecks/central_de_fatos,not_fake,count,1-1,presidente,308.0
+factchecks/central_de_fatos,not_fake,count,1-1,sobre,296.0
+factchecks/central_de_fatos,other,count,1-1,de,742.0
+factchecks/central_de_fatos,other,count,1-1,que,350.0
+factchecks/central_de_fatos,other,count,1-1,do,258.0
+factchecks/central_de_fatos,other,count,1-1,no,211.0
+factchecks/central_de_fatos,other,count,1-1,em,197.0
+factchecks/central_de_fatos,other,count,1-1,da,190.0
+factchecks/central_de_fatos,other,count,1-1,foi,128.0
+factchecks/central_de_fatos,other,count,1-1,com,119.0
+factchecks/central_de_fatos,other,count,1-1,para,117.0
+factchecks/central_de_fatos,other,count,1-1,na,105.0
+factchecks/central_de_fatos,other,count,1-1,não,94.0
+factchecks/central_de_fatos,other,count,1-1,por,92.0
+factchecks/central_de_fatos,other,count,1-1,uma,76.0
+factchecks/central_de_fatos,other,count,1-1,um,71.0
+factchecks/central_de_fatos,other,count,1-1,dia,69.0
+factchecks/central_de_fatos,other,count,1-1,lupa,69.0
+factchecks/central_de_fatos,other,count,1-1,mas,66.0
+factchecks/central_de_fatos,other,count,1-1,rio,58.0
+factchecks/central_de_fatos,other,count,1-1,ao,56.0
+factchecks/central_de_fatos,other,count,1-1,pelo,56.0
+factchecks/central_de_fatos,other,count,1-1,pela,55.0
+factchecks/central_de_fatos,other,count,1-1,os,53.0
+factchecks/central_de_fatos,other,count,1-1,novembro,52.0
+factchecks/central_de_fatos,other,count,1-1,as,49.0
+factchecks/central_de_fatos,other,count,1-1,janeiro,42.0
+factchecks/central_de_fatos,fake,count,2-2,boatos org,12079.0
+factchecks/central_de_fatos,fake,count,2-2,covid 19,11349.0
+factchecks/central_de_fatos,fake,count,2-2,na internet,10995.0
+factchecks/central_de_fatos,fake,count,2-2,redes sociais,10664.0
+factchecks/central_de_fatos,fake,count,2-2,de um,9485.0
+factchecks/central_de_fatos,fake,count,2-2,de uma,8828.0
+factchecks/central_de_fatos,fake,count,2-2,de que,8761.0
+factchecks/central_de_fatos,fake,count,2-2,que não,8346.0
+factchecks/central_de_fatos,fake,count,2-2,nas redes,7962.0
+factchecks/central_de_fatos,fake,count,2-2,no facebook,7381.0
+factchecks/central_de_fatos,fake,count,2-2,acordo com,7022.0
+factchecks/central_de_fatos,fake,count,2-2,de acordo,6956.0
+factchecks/central_de_fatos,fake,count,2-2,se você,6645.0
+factchecks/central_de_fatos,fake,count,2-2,em contato,5990.0
+factchecks/central_de_fatos,fake,count,2-2,contato com,5852.0
+factchecks/central_de_fatos,fake,count,2-2,aos fatos,5663.0
+factchecks/central_de_fatos,fake,count,2-2,no brasil,5302.0
+factchecks/central_de_fatos,fake,count,2-2,pelo site,5262.0
+factchecks/central_de_fatos,fake,count,2-2,em um,5154.0
+factchecks/central_de_fatos,fake,count,2-2,boato boato,5051.0
+factchecks/central_de_fatos,fake,count,2-2,entre em,4927.0
+factchecks/central_de_fatos,fake,count,2-2,você quiser,4740.0
+factchecks/central_de_fatos,fake,count,2-2,no dia,4691.0
+factchecks/central_de_fatos,fake,count,2-2,do boatos,4685.0
+factchecks/central_de_fatos,fake,count,2-2,um tema,4659.0
+factchecks/central_de_fatos,not_fake,count,2-2,no dia,122.0
+factchecks/central_de_fatos,not_fake,count,2-2,de janeiro,121.0
+factchecks/central_de_fatos,not_fake,count,2-2,do rio,113.0
+factchecks/central_de_fatos,not_fake,count,2-2,disse que,111.0
+factchecks/central_de_fatos,not_fake,count,2-2,são paulo,105.0
+factchecks/central_de_fatos,not_fake,count,2-2,de saúde,102.0
+factchecks/central_de_fatos,not_fake,count,2-2,de um,102.0
+factchecks/central_de_fatos,not_fake,count,2-2,que não,101.0
+factchecks/central_de_fatos,not_fake,count,2-2,de são,90.0
+factchecks/central_de_fatos,not_fake,count,2-2,de uma,90.0
+factchecks/central_de_fatos,not_fake,count,2-2,acordo com,89.0
+factchecks/central_de_fatos,not_fake,count,2-2,de acordo,88.0
+factchecks/central_de_fatos,not_fake,count,2-2,de governo,88.0
+factchecks/central_de_fatos,not_fake,count,2-2,ministério da,88.0
+factchecks/central_de_fatos,not_fake,count,2-2,no entanto,85.0
+factchecks/central_de_fatos,not_fake,count,2-2,redes sociais,84.0
+factchecks/central_de_fatos,not_fake,count,2-2,rio de,80.0
+factchecks/central_de_fatos,not_fake,count,2-2,mais de,78.0
+factchecks/central_de_fatos,not_fake,count,2-2,em seu,77.0
+factchecks/central_de_fatos,not_fake,count,2-2,de 2017,76.0
+factchecks/central_de_fatos,not_fake,count,2-2,covid 19,75.0
+factchecks/central_de_fatos,not_fake,count,2-2,do governo,74.0
+factchecks/central_de_fatos,not_fake,count,2-2,de que,72.0
+factchecks/central_de_fatos,not_fake,count,2-2,nas redes,72.0
+factchecks/central_de_fatos,not_fake,count,2-2,jair bolsonaro,71.0
+factchecks/central_de_fatos,other,count,2-2,de novembro,46.0
+factchecks/central_de_fatos,other,count,2-2,no dia,44.0
+factchecks/central_de_fatos,other,count,2-2,de janeiro,39.0
+factchecks/central_de_fatos,other,count,2-2,do rio,37.0
+factchecks/central_de_fatos,other,count,2-2,redes sociais,32.0
+factchecks/central_de_fatos,other,count,2-2,covid 19,30.0
+factchecks/central_de_fatos,other,count,2-2,rio de,29.0
+factchecks/central_de_fatos,other,count,2-2,deste ano,21.0
+factchecks/central_de_fatos,other,count,2-2,nas redes,21.0
+factchecks/central_de_fatos,other,count,2-2,de verificação,20.0
+factchecks/central_de_fatos,other,count,2-2,24 de,19.0
+factchecks/central_de_fatos,other,count,2-2,no site,19.0
+factchecks/central_de_fatos,other,count,2-2,da lupa,17.0
+factchecks/central_de_fatos,other,count,2-2,de outubro,17.0
+factchecks/central_de_fatos,other,count,2-2,dia de,16.0
+factchecks/central_de_fatos,other,count,2-2,que ele,16.0
+factchecks/central_de_fatos,other,count,2-2,de 2017,15.0
+factchecks/central_de_fatos,other,count,2-2,foi de,15.0
+factchecks/central_de_fatos,other,count,2-2,verdadeira mas,15.0
+factchecks/central_de_fatos,other,count,2-2,afirma que,14.0
+factchecks/central_de_fatos,other,count,2-2,circula nas,14.0
+factchecks/central_de_fatos,other,count,2-2,contra covid,14.0
+factchecks/central_de_fatos,other,count,2-2,de saúde,13.0
+factchecks/central_de_fatos,other,count,2-2,de uma,13.0
+factchecks/central_de_fatos,other,count,2-2,do projeto,13.0
+factchecks/central_de_fatos,fake,tfidf,1-2,de,1622.7815696169428
+factchecks/central_de_fatos,fake,tfidf,1-2,que,1075.50031338227
+factchecks/central_de_fatos,fake,tfidf,1-2,do,631.3920277084464
+factchecks/central_de_fatos,fake,tfidf,1-2,em,556.5354603726171
+factchecks/central_de_fatos,fake,tfidf,1-2,da,499.27109082064555
+factchecks/central_de_fatos,fake,tfidf,1-2,no,432.55967630967115
+factchecks/central_de_fatos,fake,tfidf,1-2,não,409.24223820661786
+factchecks/central_de_fatos,fake,tfidf,1-2,um,370.6706902340835
+factchecks/central_de_fatos,fake,tfidf,1-2,com,359.94642362435667
+factchecks/central_de_fatos,fake,tfidf,1-2,para,356.46502300361186
+factchecks/central_de_fatos,fake,tfidf,1-2,uma,354.9574467966768
+factchecks/central_de_fatos,fake,tfidf,1-2,na,333.4746055908495
+factchecks/central_de_fatos,fake,tfidf,1-2,por,260.3966754178313
+factchecks/central_de_fatos,fake,tfidf,1-2,se,235.79959764278252
+factchecks/central_de_fatos,fake,tfidf,1-2,foi,215.48654247221128
+factchecks/central_de_fatos,fake,tfidf,1-2,os,203.49587204791015
+factchecks/central_de_fatos,fake,tfidf,1-2,vídeo,198.95723018743666
+factchecks/central_de_fatos,fake,tfidf,1-2,as,194.00142560429376
+factchecks/central_de_fatos,fake,tfidf,1-2,como,187.76226690252952
+factchecks/central_de_fatos,fake,tfidf,1-2,ao,180.11051744922761
+factchecks/central_de_fatos,fake,tfidf,1-2,bolsonaro,160.5262809915057
+factchecks/central_de_fatos,fake,tfidf,1-2,mais,158.05786607539622
+factchecks/central_de_fatos,fake,tfidf,1-2,história,145.68674986630643
+factchecks/central_de_fatos,fake,tfidf,1-2,sobre,140.48565559654477
+factchecks/central_de_fatos,fake,tfidf,1-2,pelo,137.8337108998645
+factchecks/central_de_fatos,not_fake,tfidf,1-2,de,39.052145558701
+factchecks/central_de_fatos,not_fake,tfidf,1-2,que,17.50832212019769
+factchecks/central_de_fatos,not_fake,tfidf,1-2,do,15.715327192925255
+factchecks/central_de_fatos,not_fake,tfidf,1-2,em,13.082509338271146
+factchecks/central_de_fatos,not_fake,tfidf,1-2,da,11.875207905465826
+factchecks/central_de_fatos,not_fake,tfidf,1-2,no,9.942693500508337
+factchecks/central_de_fatos,not_fake,tfidf,1-2,para,8.141724722606
+factchecks/central_de_fatos,not_fake,tfidf,1-2,na,6.517951586672862
+factchecks/central_de_fatos,not_fake,tfidf,1-2,não,6.041995525107217
+factchecks/central_de_fatos,not_fake,tfidf,1-2,um,5.920545246573374
+factchecks/central_de_fatos,not_fake,tfidf,1-2,com,5.841794258003222
+factchecks/central_de_fatos,not_fake,tfidf,1-2,uma,5.021691251116943
+factchecks/central_de_fatos,not_fake,tfidf,1-2,por,4.623948317495035
+factchecks/central_de_fatos,not_fake,tfidf,1-2,os,4.483980812524345
+factchecks/central_de_fatos,not_fake,tfidf,1-2,ao,4.2787111036590275
+factchecks/central_de_fatos,not_fake,tfidf,1-2,as,4.274104563548005
+factchecks/central_de_fatos,not_fake,tfidf,1-2,foi,4.002106354065426
+factchecks/central_de_fatos,not_fake,tfidf,1-2,se,3.9730958812574286
+factchecks/central_de_fatos,not_fake,tfidf,1-2,presidente,3.7459581465419327
+factchecks/central_de_fatos,not_fake,tfidf,1-2,governo,3.4113487961705493
+factchecks/central_de_fatos,not_fake,tfidf,1-2,dos,3.2361263635505084
+factchecks/central_de_fatos,not_fake,tfidf,1-2,como,3.231041286081164
+factchecks/central_de_fatos,not_fake,tfidf,1-2,pelo,3.191443277159927
+factchecks/central_de_fatos,not_fake,tfidf,1-2,mais,3.159996626875445
+factchecks/central_de_fatos,not_fake,tfidf,1-2,rio,3.1351125708166583
+factchecks/central_de_fatos,other,tfidf,1-2,de,11.66974681633372
+factchecks/central_de_fatos,other,tfidf,1-2,que,5.563910780348557
+factchecks/central_de_fatos,other,tfidf,1-2,do,4.65822395082166
+factchecks/central_de_fatos,other,tfidf,1-2,em,3.61511961634909
+factchecks/central_de_fatos,other,tfidf,1-2,no,3.4087950347936147
+factchecks/central_de_fatos,other,tfidf,1-2,da,3.3188215531301353
+factchecks/central_de_fatos,other,tfidf,1-2,para,2.692504098353847
+factchecks/central_de_fatos,other,tfidf,1-2,foi,2.1879063895143953
+factchecks/central_de_fatos,other,tfidf,1-2,rio,2.0610974184271673
+factchecks/central_de_fatos,other,tfidf,1-2,na,2.0325773261753204
+factchecks/central_de_fatos,other,tfidf,1-2,com,2.028953265904736
+factchecks/central_de_fatos,other,tfidf,1-2,uma,1.8864897524986672
+factchecks/central_de_fatos,other,tfidf,1-2,não,1.8673235881244972
+factchecks/central_de_fatos,other,tfidf,1-2,por,1.7120178083175739
+factchecks/central_de_fatos,other,tfidf,1-2,um,1.5925118463123604
+factchecks/central_de_fatos,other,tfidf,1-2,mas,1.3817033420135956
+factchecks/central_de_fatos,other,tfidf,1-2,covid,1.3150781129180893
+factchecks/central_de_fatos,other,tfidf,1-2,covid 19,1.3150781129180893
+factchecks/central_de_fatos,other,tfidf,1-2,19,1.3143870303369942
+factchecks/central_de_fatos,other,tfidf,1-2,os,1.307682859731214
+factchecks/central_de_fatos,other,tfidf,1-2,pelo,1.2707792642601252
+factchecks/central_de_fatos,other,tfidf,1-2,ao,1.2688693820710453
+factchecks/central_de_fatos,other,tfidf,1-2,dia,1.2375576529696326
+factchecks/central_de_fatos,other,tfidf,1-2,brasil,1.1607592003366722
+factchecks/central_de_fatos,other,tfidf,1-2,lupa,1.1593926307766949
+factchecks/fakebr,fake,count,1-1,de,29073.0
+factchecks/fakebr,fake,count,1-1,que,18856.0
+factchecks/fakebr,fake,count,1-1,do,13435.0
+factchecks/fakebr,fake,count,1-1,da,10970.0
+factchecks/fakebr,fake,count,1-1,em,8354.0
+factchecks/fakebr,fake,count,1-1,para,7575.0
+factchecks/fakebr,fake,count,1-1,um,7422.0
+factchecks/fakebr,fake,count,1-1,não,6245.0
+factchecks/fakebr,fake,count,1-1,com,6210.0
+factchecks/fakebr,fake,count,1-1,uma,5724.0
+factchecks/fakebr,fake,count,1-1,no,5605.0
+factchecks/fakebr,fake,count,1-1,na,4901.0
+factchecks/fakebr,fake,count,1-1,se,4810.0
+factchecks/fakebr,fake,count,1-1,os,4498.0
+factchecks/fakebr,fake,count,1-1,foi,3576.0
+factchecks/fakebr,fake,count,1-1,por,3292.0
+factchecks/fakebr,fake,count,1-1,lula,3069.0
+factchecks/fakebr,fake,count,1-1,presidente,2994.0
+factchecks/fakebr,fake,count,1-1,as,2833.0
+factchecks/fakebr,fake,count,1-1,ao,2816.0
+factchecks/fakebr,fake,count,1-1,mais,2645.0
+factchecks/fakebr,fake,count,1-1,dos,2625.0
+factchecks/fakebr,fake,count,1-1,ele,2381.0
+factchecks/fakebr,fake,count,1-1,disse,2201.0
+factchecks/fakebr,fake,count,1-1,como,2172.0
+factchecks/fakebr,not_fake,count,1-1,de,186844.0
+factchecks/fakebr,not_fake,count,1-1,que,112776.0
+factchecks/fakebr,not_fake,count,1-1,do,78033.0
+factchecks/fakebr,not_fake,count,1-1,da,69963.0
+factchecks/fakebr,not_fake,count,1-1,em,58761.0
+factchecks/fakebr,not_fake,count,1-1,para,46393.0
+factchecks/fakebr,not_fake,count,1-1,no,39758.0
+factchecks/fakebr,not_fake,count,1-1,com,36780.0
+factchecks/fakebr,not_fake,count,1-1,um,36102.0
+factchecks/fakebr,not_fake,count,1-1,não,35995.0
+factchecks/fakebr,not_fake,count,1-1,na,33568.0
+factchecks/fakebr,not_fake,count,1-1,uma,31088.0
+factchecks/fakebr,not_fake,count,1-1,os,29045.0
+factchecks/fakebr,not_fake,count,1-1,se,24950.0
+factchecks/fakebr,not_fake,count,1-1,por,24398.0
+factchecks/fakebr,not_fake,count,1-1,as,19981.0
+factchecks/fakebr,not_fake,count,1-1,foi,19217.0
+factchecks/fakebr,not_fake,count,1-1,ao,18422.0
+factchecks/fakebr,not_fake,count,1-1,dos,17797.0
+factchecks/fakebr,not_fake,count,1-1,como,16776.0
+factchecks/fakebr,not_fake,count,1-1,mais,15263.0
+factchecks/fakebr,not_fake,count,1-1,ele,14167.0
+factchecks/fakebr,not_fake,count,1-1,presidente,13910.0
+factchecks/fakebr,not_fake,count,1-1,mas,12510.0
+factchecks/fakebr,not_fake,count,1-1,das,10571.0
+factchecks/fakebr,fake,count,2-2,ex presidente,1089.0
+factchecks/fakebr,fake,count,2-2,lava jato,888.0
+factchecks/fakebr,fake,count,2-2,de um,857.0
+factchecks/fakebr,fake,count,2-2,disse que,832.0
+factchecks/fakebr,fake,count,2-2,que não,773.0
+factchecks/fakebr,fake,count,2-2,acordo com,746.0
+factchecks/fakebr,fake,count,2-2,de acordo,730.0
+factchecks/fakebr,fake,count,2-2,de lula,712.0
+factchecks/fakebr,fake,count,2-2,de uma,591.0
+factchecks/fakebr,fake,count,2-2,michel temer,496.0
+factchecks/fakebr,fake,count,2-2,que os,480.0
+factchecks/fakebr,fake,count,2-2,do norte,479.0
+factchecks/fakebr,fake,count,2-2,do brasil,478.0
+factchecks/fakebr,fake,count,2-2,em um,462.0
+factchecks/fakebr,fake,count,2-2,de que,461.0
+factchecks/fakebr,fake,count,2-2,diz que,445.0
+factchecks/fakebr,fake,count,2-2,presidente da,445.0
+factchecks/fakebr,fake,count,2-2,que se,440.0
+factchecks/fakebr,fake,count,2-2,mais de,439.0
+factchecks/fakebr,fake,count,2-2,que ele,439.0
+factchecks/fakebr,fake,count,2-2,sérgio moro,438.0
+factchecks/fakebr,fake,count,2-2,do ex,429.0
+factchecks/fakebr,fake,count,2-2,da república,428.0
+factchecks/fakebr,fake,count,2-2,de dilma,408.0
+factchecks/fakebr,fake,count,2-2,do pt,382.0
+factchecks/fakebr,not_fake,count,2-2,que não,4960.0
+factchecks/fakebr,not_fake,count,2-2,de um,4827.0
+factchecks/fakebr,not_fake,count,2-2,ex presidente,4825.0
+factchecks/fakebr,not_fake,count,2-2,lava jato,3968.0
+factchecks/fakebr,not_fake,count,2-2,de uma,3966.0
+factchecks/fakebr,not_fake,count,2-2,de que,3755.0
+factchecks/fakebr,not_fake,count,2-2,disse que,3423.0
+factchecks/fakebr,not_fake,count,2-2,em que,2950.0
+factchecks/fakebr,not_fake,count,2-2,que os,2730.0
+factchecks/fakebr,not_fake,count,2-2,que se,2706.0
+factchecks/fakebr,not_fake,count,2-2,são paulo,2683.0
+factchecks/fakebr,not_fake,count,2-2,da república,2669.0
+factchecks/fakebr,not_fake,count,2-2,que ele,2529.0
+factchecks/fakebr,not_fake,count,2-2,do ex,2513.0
+factchecks/fakebr,not_fake,count,2-2,presidente da,2507.0
+factchecks/fakebr,not_fake,count,2-2,em um,2393.0
+factchecks/fakebr,not_fake,count,2-2,ministério público,2233.0
+factchecks/fakebr,not_fake,count,2-2,mais de,2186.0
+factchecks/fakebr,not_fake,count,2-2,de lula,2180.0
+factchecks/fakebr,not_fake,count,2-2,um dos,2174.0
+factchecks/fakebr,not_fake,count,2-2,acordo com,2151.0
+factchecks/fakebr,not_fake,count,2-2,de acordo,2097.0
+factchecks/fakebr,not_fake,count,2-2,para que,1977.0
+factchecks/fakebr,not_fake,count,2-2,coreia do,1974.0
+factchecks/fakebr,not_fake,count,2-2,diz que,1938.0
+factchecks/fakebr,fake,tfidf,1-2,de,304.9032234407314
+factchecks/fakebr,fake,tfidf,1-2,que,204.45359264049895
+factchecks/fakebr,fake,tfidf,1-2,do,154.88928886995544
+factchecks/fakebr,fake,tfidf,1-2,da,132.6670542843582
+factchecks/fakebr,fake,tfidf,1-2,em,104.29360197570463
+factchecks/fakebr,fake,tfidf,1-2,um,99.77235973679365
+factchecks/fakebr,fake,tfidf,1-2,para,98.33204664659227
+factchecks/fakebr,fake,tfidf,1-2,não,89.04723732999688
+factchecks/fakebr,fake,tfidf,1-2,com,84.9063143389916
+factchecks/fakebr,fake,tfidf,1-2,uma,81.73321971339561
+factchecks/fakebr,fake,tfidf,1-2,no,79.76108185468506
+factchecks/fakebr,fake,tfidf,1-2,lula,79.54973038417398
+factchecks/fakebr,fake,tfidf,1-2,na,73.66635697920717
+factchecks/fakebr,fake,tfidf,1-2,se,73.63998593734016
+factchecks/fakebr,fake,tfidf,1-2,os,70.17664334017029
+factchecks/fakebr,fake,tfidf,1-2,foi,61.881523889387445
+factchecks/fakebr,fake,tfidf,1-2,presidente,60.97926143290485
+factchecks/fakebr,fake,tfidf,1-2,dilma,55.85862858355101
+factchecks/fakebr,fake,tfidf,1-2,por,55.3844806300679
+factchecks/fakebr,fake,tfidf,1-2,as,52.19787284075857
+factchecks/fakebr,fake,tfidf,1-2,ao,51.68923395217224
+factchecks/fakebr,fake,tfidf,1-2,dos,50.16772390877533
+factchecks/fakebr,fake,tfidf,1-2,mais,49.396347494246726
+factchecks/fakebr,fake,tfidf,1-2,ele,49.174145888114495
+factchecks/fakebr,fake,tfidf,1-2,ex,47.896590181398345
+factchecks/fakebr,not_fake,tfidf,1-2,de,824.4354774873045
+factchecks/fakebr,not_fake,tfidf,1-2,que,494.2424711772707
+factchecks/fakebr,not_fake,tfidf,1-2,do,356.43723347349186
+factchecks/fakebr,not_fake,tfidf,1-2,da,317.03416303653626
+factchecks/fakebr,not_fake,tfidf,1-2,em,261.94863317593064
+factchecks/fakebr,not_fake,tfidf,1-2,para,207.54040276791125
+factchecks/fakebr,not_fake,tfidf,1-2,no,179.9773067216021
+factchecks/fakebr,not_fake,tfidf,1-2,com,164.43466931181626
+factchecks/fakebr,not_fake,tfidf,1-2,um,161.96489032796734
+factchecks/fakebr,not_fake,tfidf,1-2,não,161.68410087120844
+factchecks/fakebr,not_fake,tfidf,1-2,na,154.0649389643653
+factchecks/fakebr,not_fake,tfidf,1-2,uma,140.07145288147223
+factchecks/fakebr,not_fake,tfidf,1-2,os,130.87529833516066
+factchecks/fakebr,not_fake,tfidf,1-2,se,115.09043160530187
+factchecks/fakebr,not_fake,tfidf,1-2,por,111.01807520125274
+factchecks/fakebr,not_fake,tfidf,1-2,presidente,95.28407622180444
+factchecks/fakebr,not_fake,tfidf,1-2,lula,94.61841646658648
+factchecks/fakebr,not_fake,tfidf,1-2,foi,93.84544887371759
+factchecks/fakebr,not_fake,tfidf,1-2,as,93.2839293073815
+factchecks/fakebr,not_fake,tfidf,1-2,ao,88.77583996595854
+factchecks/fakebr,not_fake,tfidf,1-2,dos,85.43179376208052
+factchecks/fakebr,not_fake,tfidf,1-2,como,78.99254800950025
+factchecks/fakebr,not_fake,tfidf,1-2,ex,78.0989875585752
+factchecks/fakebr,not_fake,tfidf,1-2,mais,76.66169570120972
+factchecks/fakebr,not_fake,tfidf,1-2,ele,75.5543063108255
+fakerecogna/original,fake,count,1-1,social,2237.0
+fakerecogna/original,fake,count,1-1,dia,2041.0
+fakerecogna/original,fake,count,1-1,vídeo,1923.0
+fakerecogna/original,fake,count,1-1,bolsonaro,1890.0
+fakerecogna/original,fake,count,1-1,presidente,1842.0
+fakerecogna/original,fake,count,1-1,rede,1837.0
+fakerecogna/original,fake,count,1-1,brasil,1746.0
+fakerecogna/original,fake,count,1-1,circular,1681.0
+fakerecogna/original,fake,count,1-1,pessoa,1592.0
+fakerecogna/original,fake,count,1-1,covid,1556.0
+fakerecogna/original,fake,count,1-1,mensagem,1529.0
+fakerecogna/original,fake,count,1-1,ano,1489.0
+fakerecogna/original,fake,count,1-1,vacinar,1346.0
+fakerecogna/original,fake,count,1-1,imagem,1344.0
+fakerecogna/original,fake,count,1-1,haver,1326.0
+fakerecogna/original,fake,count,1-1,compartilhar,1312.0
+fakerecogna/original,fake,count,1-1,19,1245.0
+fakerecogna/original,fake,count,1-1,mostrar,1105.0
+fakerecogna/original,fake,count,1-1,governar,1081.0
+fakerecogna/original,fake,count,1-1,afirmar,1059.0
+fakerecogna/original,fake,count,1-1,texto,1026.0
+fakerecogna/original,fake,count,1-1,casar,970.0
+fakerecogna/original,fake,count,1-1,facebook,970.0
+fakerecogna/original,fake,count,1-1,coronavírus,945.0
+fakerecogna/original,fake,count,1-1,foto,926.0
+fakerecogna/original,real,count,1-1,de,4300.0
+fakerecogna/original,real,count,1-1,covid,3749.0
+fakerecogna/original,real,count,1-1,19,3474.0
+fakerecogna/original,real,count,1-1,saudar,3473.0
+fakerecogna/original,real,count,1-1,coronavírus,3351.0
+fakerecogna/original,real,count,1-1,presidente,3238.0
+fakerecogna/original,real,count,1-1,dia,2713.0
+fakerecogna/original,real,count,1-1,país,2568.0
+fakerecogna/original,real,count,1-1,feira,2487.0
+fakerecogna/original,real,count,1-1,pandemia,2466.0
+fakerecogna/original,real,count,1-1,bolsonaro,2455.0
+fakerecogna/original,real,count,1-1,governar,2281.0
+fakerecogna/original,real,count,1-1,brasil,2194.0
+fakerecogna/original,real,count,1-1,vacinar,2192.0
+fakerecogna/original,real,count,1-1,ano,2183.0
+fakerecogna/original,real,count,1-1,pessoa,2111.0
+fakerecogna/original,real,count,1-1,hoje,2038.0
+fakerecogna/original,real,count,1-1,haver,2028.0
+fakerecogna/original,real,count,1-1,federal,1912.0
+fakerecogna/original,real,count,1-1,que,1891.0
+fakerecogna/original,real,count,1-1,ministério,1844.0
+fakerecogna/original,real,count,1-1,caso,1760.0
+fakerecogna/original,real,count,1-1,do,1692.0
+fakerecogna/original,real,count,1-1,casar,1617.0
+fakerecogna/original,real,count,1-1,paulo,1599.0
+fakerecogna/original,fake,count,2-2,rede social,1721.0
+fakerecogna/original,fake,count,2-2,covid 19,1204.0
+fakerecogna/original,fake,count,2-2,circular rede,1047.0
+fakerecogna/original,fake,count,2-2,jair bolsonaro,530.0
+fakerecogna/original,fake,count,2-2,presidente jair,387.0
+fakerecogna/original,fake,count,2-2,rir janeiro,275.0
+fakerecogna/original,fake,count,2-2,redar social,251.0
+fakerecogna/original,fake,count,2-2,social mensagem,248.0
+fakerecogna/original,fake,count,2-2,ex presidente,231.0
+fakerecogna/original,fake,count,2-2,mensagem falso,226.0
+fakerecogna/original,fake,count,2-2,social vídeo,223.0
+fakerecogna/original,fake,count,2-2,compartilhar facebook,216.0
+fakerecogna/original,fake,count,2-2,fato fake,215.0
+fakerecogna/original,fake,count,2-2,equipar fato,196.0
+fakerecogna/original,fake,count,2-2,vídeo mostrar,186.0
+fakerecogna/original,fake,count,2-2,governar federal,163.0
+fakerecogna/original,fake,count,2-2,fake checar,159.0
+fakerecogna/original,fake,count,2-2,publicação compartilhar,156.0
+fakerecogna/original,fake,count,2-2,checar principal,151.0
+fakerecogna/original,fake,count,2-2,principal declaração,151.0
+fakerecogna/original,fake,count,2-2,vacinar covid,151.0
+fakerecogna/original,fake,count,2-2,tomar vacinar,146.0
+fakerecogna/original,fake,count,2-2,facebook twitter,142.0
+fakerecogna/original,fake,count,2-2,ministério saudar,142.0
+fakerecogna/original,fake,count,2-2,facebook instagram,138.0
+fakerecogna/original,real,count,2-2,covid 19,3423.0
+fakerecogna/original,real,count,2-2,jair bolsonaro,1236.0
+fakerecogna/original,real,count,2-2,ministério saudar,898.0
+fakerecogna/original,real,count,2-2,presidente jair,893.0
+fakerecogna/original,real,count,2-2,pandemia coronavírus,691.0
+fakerecogna/original,real,count,2-2,segunda feira,542.0
+fakerecogna/original,real,count,2-2,quarta feira,513.0
+fakerecogna/original,real,count,2-2,quinta feira,488.0
+fakerecogna/original,real,count,2-2,terça feira,471.0
+fakerecogna/original,real,count,2-2,sexta feira,470.0
+fakerecogna/original,real,count,2-2,rir janeiro,443.0
+fakerecogna/original,real,count,2-2,tribunal federal,424.0
+fakerecogna/original,real,count,2-2,supremo tribunal,423.0
+fakerecogna/original,real,count,2-2,governar federal,395.0
+fakerecogna/original,real,count,2-2,vacinar covid,366.0
+fakerecogna/original,real,count,2-2,rede social,326.0
+fakerecogna/original,real,count,2-2,milhão dose,308.0
+fakerecogna/original,real,count,2-2,ministério público,279.0
+fakerecogna/original,real,count,2-2,pandemia covid,279.0
+fakerecogna/original,real,count,2-2,organização mundial,258.0
+fakerecogna/original,real,count,2-2,isolamento social,250.0
+fakerecogna/original,real,count,2-2,ano passar,245.0
+fakerecogna/original,real,count,2-2,mundial saudar,239.0
+fakerecogna/original,real,count,2-2,ler íntegro,231.0
+fakerecogna/original,real,count,2-2,reinar unir,230.0
+fakerecogna/original,fake,tfidf,1-2,vídeo,102.14874916968614
+fakerecogna/original,fake,tfidf,1-2,social,94.21078079141004
+fakerecogna/original,fake,tfidf,1-2,bolsonaro,93.02654474717197
+fakerecogna/original,fake,tfidf,1-2,presidente,86.67437009388911
+fakerecogna/original,fake,tfidf,1-2,dia,86.49824466122799
+fakerecogna/original,fake,tfidf,1-2,vacinar,83.25347578395905
+fakerecogna/original,fake,tfidf,1-2,rede,80.23101850394906
+fakerecogna/original,fake,tfidf,1-2,brasil,78.23875416702916
+fakerecogna/original,fake,tfidf,1-2,covid,77.2953190155977
+fakerecogna/original,fake,tfidf,1-2,imagem,77.26063476013289
+fakerecogna/original,fake,tfidf,1-2,rede social,77.00871244843647
+fakerecogna/original,fake,tfidf,1-2,circular,75.00091473340946
+fakerecogna/original,fake,tfidf,1-2,mensagem,73.48619279049599
+fakerecogna/original,fake,tfidf,1-2,ano,72.38041986267777
+fakerecogna/original,fake,tfidf,1-2,pessoa,68.79195819134611
+fakerecogna/original,fake,tfidf,1-2,compartilhar,67.1412300502379
+fakerecogna/original,fake,tfidf,1-2,19,65.6263206190386
+fakerecogna/original,fake,tfidf,1-2,covid 19,64.40101375673382
+fakerecogna/original,fake,tfidf,1-2,haver,64.28055732029419
+fakerecogna/original,fake,tfidf,1-2,mostrar,63.12385422318762
+fakerecogna/original,fake,tfidf,1-2,texto,60.56145793169892
+fakerecogna/original,fake,tfidf,1-2,foto,60.39773868923379
+fakerecogna/original,fake,tfidf,1-2,afirmar,60.01037554382738
+fakerecogna/original,fake,tfidf,1-2,umar,58.22809876032368
+fakerecogna/original,fake,tfidf,1-2,publicação,57.84650877395491
+fakerecogna/original,real,tfidf,1-2,de,141.5286776388996
+fakerecogna/original,real,tfidf,1-2,saudar,113.92413492808808
+fakerecogna/original,real,tfidf,1-2,presidente,108.8950915184816
+fakerecogna/original,real,tfidf,1-2,covid,106.42107514185858
+fakerecogna/original,real,tfidf,1-2,19,101.1691234486752
+fakerecogna/original,real,tfidf,1-2,vacinar,100.41399638892386
+fakerecogna/original,real,tfidf,1-2,covid 19,100.07873298225222
+fakerecogna/original,real,tfidf,1-2,coronavírus,97.75891518564023
+fakerecogna/original,real,tfidf,1-2,bolsonaro,95.65612572802006
+fakerecogna/original,real,tfidf,1-2,dia,93.23768464405885
+fakerecogna/original,real,tfidf,1-2,país,89.7274080459165
+fakerecogna/original,real,tfidf,1-2,governar,84.53904067271633
+fakerecogna/original,real,tfidf,1-2,feira,82.06747679975336
+fakerecogna/original,real,tfidf,1-2,pandemia,81.81457716720921
+fakerecogna/original,real,tfidf,1-2,ano,79.7012791310451
+fakerecogna/original,real,tfidf,1-2,pessoa,79.63381842122892
+fakerecogna/original,real,tfidf,1-2,brasil,77.67420369016902
+fakerecogna/original,real,tfidf,1-2,caso,76.26037684885027
+fakerecogna/original,real,tfidf,1-2,hoje,73.74977845922996
+fakerecogna/original,real,tfidf,1-2,haver,72.56717794331063
+fakerecogna/original,real,tfidf,1-2,federal,70.23488961304531
+fakerecogna/original,real,tfidf,1-2,ministério,70.0685352167181
+fakerecogna/original,real,tfidf,1-2,morte,66.03190070293981
+fakerecogna/original,real,tfidf,1-2,paulo,65.25395412480302
+fakerecogna/original,real,tfidf,1-2,casar,64.85113594839713
