@@ -1,0 +1,15 @@
+project_root: "."
+data:
+  raw: "data/raw"
+  factchecks_repo: "data/raw/factchecks"
+  factchecks_release: "data/raw/factchecks_hf/release_v0.1/data"
+  fakerecogna: "data/raw/fakerecogna/FakeRecogna.csv"
+  interim: "data/interim"
+  processed: "data/processed"
+reports:
+  figures: "reports/figures"
+  tables: "reports/tables"
+  summary: "reports/eda_summary.md"
+models: "models"
+seed: 42
+
