@@ -79,27 +79,6 @@ jupyter lab
 
 O pipeline cria Parquets separados em `data/interim`, tabelas em `reports/tables`, figuras em `reports/figures` e atualiza `reports/eda_summary.md`. Para uma verificacao mais rapida, `--skip-near-duplicates` pula somente a busca aproximada; duplicatas exatas continuam sendo calculadas.
 
-### Relatorio LaTeX
-
-Depois de executar a EDA, gere o relatorio academico com:
-
-```bash
-python scripts/generate_latex_report.py \
-  --author "Nome do(a) autor(a)" \
-  --institution "Nome da instituicao"
-```
-
-O resultado é um único fonte editável em `reports/eda_report.tex`. Ele reutiliza diretamente as figuras já existentes em `reports/figures`, sem criar cópias ou pacotes adicionais.
-
-Para compilar localmente:
-
-```bash
-cd reports
-latexmk -pdf -interaction=nonstopmode eda_report.tex
-```
-
-Para utilizar no Overleaf, envie `eda_report.tex` e a pasta `figures/`. No Overleaf, selecione `eda_report.tex` como documento principal.
-
 ## Estrutura dos notebooks
 
 1. `01_dataset_overview.ipynb`: schemas, dimensoes, amostras, labels, periodos, fontes e comparacao inicial.
