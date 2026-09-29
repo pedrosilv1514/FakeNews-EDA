@@ -8,3 +8,8 @@ PyYAML>=6.0,<7
 jupyter>=1.1,<2
 pytest>=8.3,<10
 tabulate>=0.9,<1
+
+# BERTimbau e opcional para nao tornar o pipeline classico dependente de PyTorch:
+# transformers>=4.46,<5
+# torch>=2.4,<3
+# accelerate>=1.0,<2

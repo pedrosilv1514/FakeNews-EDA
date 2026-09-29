@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "fake-news-classifier"
 version = "0.1.0"
-description = "EDA reprodutivel de datasets brasileiros de noticias falsas e verdadeiras"
+description = "Pipeline reprodutivel de classificacao de noticias brasileiras"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -21,10 +21,20 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["jupyter>=1.1,<2", "pytest>=8.3,<10"]
+bert = [
+  "transformers>=4.46,<5",
+  "torch>=2.4,<3",
+  "accelerate>=1.0,<2",
+]
+docs = ["mkdocs-material>=9.5,<10"]
 
 [project.scripts]
 fake-news-prepare = "src.data.make_dataset:main"
 fake-news-eda = "src.analysis.pipeline:main"
+fake-news-prepare-ml = "src.preprocessing.modeling:main"
+fake-news-train-baselines = "src.train_baselines:main"
+fake-news-train-stacking = "src.train_stacking:main"
+fake-news-predict = "src.predict:main"
 
 [tool.setuptools.packages.find]
 include = ["src*"]

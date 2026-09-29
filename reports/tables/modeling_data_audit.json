@@ -1,0 +1,34 @@
+{
+  "source": "data/interim/fakerecogna_original.parquet",
+  "output": "data/processed/modeling_dataset.parquet",
+  "initial_rows": 11903,
+  "missing_or_non_binary_labels_removed": 1,
+  "invalid_text_rows_removed": 0,
+  "exact_duplicate_rows_removed": 0,
+  "near_duplicate_edges_used": 76,
+  "conflicting_group_rows_removed": 44,
+  "final_rows": 11858,
+  "groups": 11615,
+  "split_counts": {
+    "test": {
+      "fake": 847,
+      "real": 847
+    },
+    "train": {
+      "fake": 4235,
+      "real": 4235
+    },
+    "validation": {
+      "fake": 847,
+      "real": 847
+    }
+  },
+  "temporal_cutoff": "2021-02-19",
+  "temporal_counts": {
+    "train": 8962,
+    "test": 2236,
+    "unavailable": 660
+  },
+  "normalization": "NFKC + whitespace + invalid control removal; accents, case, punctuation and stopwords retained",
+  "source_body_note": "The distributed FakeRecogna body already appears linguistically preprocessed; no additional stemming/lemmatization is applied."
+}

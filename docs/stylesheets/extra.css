@@ -1,0 +1,36 @@
+:root {
+  --md-primary-fg-color: #303f9f;
+  --md-accent-fg-color: #00897b;
+}
+
+.hero {
+  padding: 1.4rem 1.6rem;
+  margin: 0 0 1.5rem;
+  border-radius: 0.8rem;
+  background: linear-gradient(135deg, rgba(48, 63, 159, 0.14), rgba(0, 137, 123, 0.12));
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.metric-card {
+  padding: 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.55rem;
+  background: var(--md-default-bg-color);
+}
+
+.metric-card strong {
+  display: block;
+  color: var(--md-primary-fg-color);
+  font-size: 1.35rem;
+}
+
+.decision {
+  border-left: 0.3rem solid var(--md-accent-fg-color);
+  padding-left: 1rem;
+}
