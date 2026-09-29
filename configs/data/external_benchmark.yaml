@@ -1,0 +1,390 @@
+protocol:
+  id: external-v1
+  version: 1.0.0-draft
+  status: protocol_defined
+  created_at: "2026-09-29"
+  seed: 42
+  purpose: >-
+    Avaliar generalizacao temporal, editorial e tematica do baseline E02 fora
+    do FakeRecogna, sem usar o conjunto para ajuste ou recalibracao.
+
+baseline:
+  experiment: E02
+  model_name: linear_svm
+  model_version: 1.0.0
+  artifact: models/E02_linear_svm.joblib
+  threshold: 0.5
+  positive_class: fake
+  retraining_allowed: false
+  recalibration_allowed: false
+
+period:
+  start_inclusive: "2022-01-01"
+  end_inclusive: "2025-12-31"
+  timezone: UTC
+  training_corpus_last_known_date: "2021-12-07"
+  reserved_for_next_benchmark_start: "2026-01-01"
+
+population:
+  primary_language: pt-BR
+  unit: news_document_with_verifiable_claim
+  primary_content_types:
+    - news_article
+    - informative_article
+  exploratory_content_types:
+    - social_post
+  minimum_body_characters: 200
+  require_raw_unstemmed_text: true
+  identity_fields:
+    - article_id
+    - claim_id
+    - event_id
+
+source_policy:
+  primary_requires_unseen_content_publisher: true
+  compare_against_training_domains: true
+  unknown_publisher_action: exclude
+  seen_source_action: retain_secondary_only
+  distinguish_roles:
+    - content_publisher
+    - factcheck_organization
+    - evidence_publisher
+  discovery_preferences:
+    - public_api
+    - claimreview
+    - rss
+    - authorized_sitemap
+    - authorized_html
+
+eligibility:
+  required:
+    - published_inside_protocol_period
+    - portuguese_confirmed_by_human_review
+    - title_or_body_present
+    - minimum_body_length_met
+    - verifiable_factual_claim
+    - canonical_url_identified
+    - content_publisher_identified
+    - publication_date_identified
+    - original_rating_preserved
+    - rating_scale_preserved
+    - evidence_url_available
+    - license_or_terms_recorded
+    - claim_id_reviewed
+    - event_id_reviewed
+    - no_prohibited_overlap
+    - label_adjudicated
+  exclude_from_primary:
+    - factcheck_review_used_as_target_text
+    - missing_body_or_link_list
+    - audiovisual_without_reliable_transcript
+    - opinion_prediction_or_explicit_satire
+    - no_verifiable_claim
+    - untraceable_machine_translation
+    - label_inferred_from_domain_reputation
+    - label_without_traceable_evidence
+    - unresolved_duplicate
+    - unresolved_label_conflict
+    - unverifiable_source_or_date
+
+labels:
+  preserve_original: true
+  normalized_taxonomy:
+    - "true"
+    - "false"
+    - misleading
+    - out_of_context
+    - outdated
+    - unverified
+    - insufficient_evidence
+  binary_mapping:
+    "true": real
+    "false": fake
+    misleading: null
+    out_of_context: null
+    outdated: null
+    unverified: null
+    insufficient_evidence: null
+  primary_binary_labels:
+    - "true"
+    - "false"
+  abstention_challenge_labels:
+    - misleading
+    - out_of_context
+    - outdated
+    - unverified
+    - insufficient_evidence
+  forbidden_mappings:
+    unverified: "false"
+    insufficient_evidence: "false"
+
+evidence:
+  accepted_routes:
+    - id: registered_factchecker
+      requirements:
+        - explicit_rating
+        - original_rating_scale
+        - factcheck_url
+        - at_least_one_evidence_url
+    - id: independent_primary_sources
+      requirements:
+        - two_independent_primary_sources
+        - human_documented_conclusion
+  republication_counts_as_independent_source: false
+  absence_of_refutation_counts_as_true: false
+  domain_or_style_counts_as_false: false
+
+annotation:
+  protocol_version: 1.0.0-draft
+  independent_reviewers_per_record: 2
+  adjudicator_on_disagreement: true
+  required_final_status: adjudicated
+  review_fields:
+    - factual_claim
+    - temporal_context
+    - evidence
+    - normalized_label
+    - claim_id
+    - event_id
+  quality_metrics:
+    - raw_agreement
+    - cohens_kappa_before_adjudication
+
+sampling:
+  target_binary_rows: 1200
+  target_per_binary_class: 600
+  minimum_release_rows: 800
+  minimum_per_binary_class: 350
+  minimum_primary_publishers: 10
+  maximum_publisher_fraction: 0.10
+  maximum_topic_fraction: 0.30
+  minimum_topics_with_50_rows: 5
+  maximum_year_fraction: 0.35
+  minimum_each_year_fraction: 0.10
+  maximum_documents_per_claim: 3
+  maximum_documents_per_event: 5
+  topics:
+    - politics
+    - health
+    - economy
+    - science_technology
+    - security
+    - environment
+    - disasters
+    - international
+    - entertainment_sports
+    - other
+  note: controlled_balancing_does_not_estimate_population_prevalence
+
+deduplication:
+  comparison_scopes:
+    - data/raw
+    - data/interim
+    - data/processed
+    - external_candidates
+  automatic_blocks:
+    - canonical_url_exact
+    - normalized_text_sha256_exact
+    - title_body_sha256_exact
+    - claim_id_seen_in_development
+    - event_id_seen_in_development
+  review_candidates:
+    character_tfidf_cosine_minimum: 0.90
+    minhash_jaccard_minimum: 0.80
+    semantic_similarity:
+      action: manual_review_only
+      threshold: null
+      threshold_requires_annotated_calibration: true
+  require_duplicate_decision_audit: true
+  cross_dataset_invariants:
+    article_id_overlap: 0
+    claim_id_overlap: 0
+    event_id_overlap: 0
+    content_hash_overlap: 0
+
+schema:
+  required_fields:
+    - article_id
+    - claim_id
+    - event_id
+    - title
+    - body
+    - canonical_url
+    - content_publisher
+    - content_publisher_domain
+    - published_at
+    - collected_at
+    - language
+    - topic
+    - label_original
+    - label_normalized
+    - binary_label
+    - label_status
+    - rating_scale
+    - factcheck_organization
+    - factcheck_url
+    - evidence_urls
+    - source_seen
+    - license_or_terms
+    - content_hash
+    - collector_version
+    - annotation_protocol_version
+
+storage:
+  states:
+    - collecting
+    - labeling
+    - quality_review
+    - frozen
+  dataset_in_git: false
+  public_git_contents:
+    - code
+    - configuration
+    - manifest
+    - permitted_statistics
+    - hashes
+  future_manifest: data/manifests/external-v1.json
+  recommended_versioning:
+    - dvc
+    - versioned_object_storage
+
+freeze:
+  required_state_for_evaluation: frozen
+  immutable_after_freeze:
+    - article_id
+    - claim_id
+    - event_id
+    - content
+    - label
+    - group_membership
+  correction_requires_new_version: true
+  manifest_requires:
+    - dataset_sha256
+    - row_counts
+    - label_counts
+    - source_counts
+    - period_counts
+    - collector_version
+    - annotation_protocol_version
+    - dependency_versions
+  consumed_if_used_for:
+    - feature_changes
+    - threshold_selection
+    - recalibration
+    - hyperparameter_tuning
+  next_acceptance_dataset_after_consumption: external-v2
+
+evaluation:
+  generate_predictions_before_label_analysis: true
+  one_confirmatory_run_per_candidate_version: true
+  preserve_raw_predictions: true
+  preserve_inference_failures: true
+  primary_metrics:
+    - macro_f1
+    - fake_recall
+    - brier_score
+  secondary_metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+    - per_class_f1
+    - roc_auc
+    - pr_auc
+    - log_loss
+    - confusion_matrix
+    - classification_report
+    - expected_calibration_error
+    - latency
+  expected_calibration_error:
+    bins: 15
+    strategy: quantile
+  confidence_intervals:
+    confidence: 0.95
+    method: cluster_bootstrap
+    cluster: event_id
+    resamples: 2000
+    seed: 42
+  latency:
+    warmup_iterations: 10
+    measured_iterations: 100
+    batch_sizes:
+      - 1
+      - 32
+    statistics:
+      - median
+      - p95
+    record_environment: true
+  segments:
+    - content_publisher
+    - topic
+    - year
+    - quarter
+    - text_length_band
+    - evidence_route
+    - source_seen
+  segment_publication_minimum_rows: 30
+  segment_publication_minimum_each_class: 10
+
+decision:
+  precedence: most_severe_condition_wins
+  approve:
+    macro_f1_minimum: 0.80
+    macro_f1_ci95_lower_minimum: 0.75
+    fake_recall_minimum: 0.85
+    brier_score_maximum: 0.15
+    segment_macro_f1_minimum: 0.70
+    maximum_comparable_segment_gap: 0.15
+    contamination_allowed: false
+  approve_with_restrictions:
+    requires_global_approve_thresholds: true
+    triggers:
+      - localized_source_degradation
+      - localized_topic_degradation
+      - localized_period_degradation
+      - localized_length_degradation
+    require_declared_unsupported_segments: true
+    require_abstention_policy: true
+  retrain_required:
+    macro_f1_range:
+      minimum_inclusive: 0.65
+      maximum_exclusive: 0.80
+    fake_recall_range:
+      minimum_inclusive: 0.70
+      maximum_exclusive: 0.85
+    brier_score_range:
+      minimum_exclusive: 0.15
+      maximum_inclusive: 0.25
+    maximum_internal_to_external_macro_f1_drop: 0.10
+    raw_text_distribution_incompatibility: true
+  reject_for_production:
+    macro_f1_below: 0.65
+    fake_recall_below: 0.70
+    brier_score_above: 0.25
+    reject_on:
+      - benchmark_contamination
+      - insufficient_label_provenance
+      - insufficient_label_quality
+      - systematic_failure_in_relevant_segment
+
+quality_report:
+  required_before_freeze:
+    - total_rows
+    - binary_eligible_rows
+    - original_label_distribution
+    - normalized_label_distribution
+    - publisher_distribution
+    - topic_distribution
+    - year_distribution
+    - quarter_distribution
+    - missingness_by_field
+    - label_conflicts
+    - adjudication_counts
+    - reviewer_agreement
+    - removed_duplicates
+    - reviewed_duplicate_candidates
+    - overlap_with_existing_datasets
+    - quota_coverage
+    - licenses_and_redistribution_restrictions
+    - hashes_and_versions
+  freeze_when_requirements_fail: false
