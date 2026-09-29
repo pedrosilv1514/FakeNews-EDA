@@ -38,6 +38,8 @@ mlruns/
 # Build artifacts
 build/
 dist/
+site/
+docs/assets/generated/
 
 # LaTeX temporary files
 *.aux

@@ -1,55 +1,55 @@
-# Fake News Classification
+# Fake News Classification — PT-BR
 
-Projeto de Engenharia de Machine Learning e Ciencia de Dados para estudar classificacao de noticias em portugues brasileiro. Esta primeira versao cobre aquisicao, perfil, qualidade, EDA textual, vieses e risco de data leakage. Ela **nao treina modelos** e **nao faz train/test split**.
+[![Documentação](https://img.shields.io/badge/docs-GitHub%20Pages-4051b5)](https://pedrosilv1514.github.io/FakeNews-EDA/)
 
-## Objetivo
+Pipeline reprodutivel de EDA, treinamento, calibracao, stacking e inferencia para
+classificacao binaria de noticias em portugues brasileiro. O projeto nao usa
+LLMs para classificar e nao implementa frontend nem verificacao factual.
 
-Construir uma base reprodutivel e auditavel para experimentos futuros de classificacao, probabilidade calibrada e explicabilidade. A prioridade atual e entender a unidade textual, as definicoes de label, a proveniencia, as duplicatas e os atalhos que poderiam inflar uma avaliacao.
+> A probabilidade emitida e uma estimativa de pertencimento a classe aprendida
+> no corpus. Ela nao comprova se uma noticia e factual.
 
-## Datasets
+## Dados e decisao metodologica
 
-### FactChecks.br
+Os dados locais vieram de [FakeRecogna](https://huggingface.co/datasets/recogna-nlp/FakeRecogna)
+e [FactChecks.br](https://github.com/fake-news-UFG/FactChecks.br). A EDA encontrou
+42.591 linhas contadas entre seis subconjuntos, 11.877 assinaturas cruzadas e 132
+conflitos semanticos. Dois subconjuntos nao têm texto, `central_de_fatos` e muito
+desbalanceado e FactChecks/FakeRecogna se sobrepoe ao original.
 
-Fonte: [GitHub — FactChecks.br](https://github.com/fake-news-UFG/FactChecks.br/tree/main)
+Por isso, os experimentos usam o FakeRecogna original como benchmark canonico:
+11.858 registros apos validacao/conflitos, balanceados entre fake/real. Grupos de
+URL, texto exato e quase duplicatas nunca cruzam treino, validacao ou teste.
+Metadados de fonte nao entram como features. Consulte [a EDA](reports/eda_summary.md),
+[a pesquisa de stacking](reports/stacking_research.md) e
+[o relatorio de experimentos](reports/ml_experiments.md).
 
-O release v0.1 contem cinco benchmarks com tarefas e schemas distintos:
+A versão navegável da documentação está preparada para publicação em
+[pedrosilv1514.github.io/FakeNews-EDA](https://pedrosilv1514.github.io/FakeNews-EDA/).
 
-- `fakebr`: texto de noticia/alegacao e metadados;
-- `FakeRecogna`: texto de revisao/fonte no schema consolidado;
-- `central_de_fatos`: textos de checagens;
-- `fact_check_tweet_pt`: pares entre checagens e IDs de tweets, sem texto integral;
-- `FakeNewsSet`: pares entre checagens e IDs, sem texto integral.
-
-O release tambem traz `fake_br.tsv`, byte a byte identico a `fakebr.tsv`. O arquivo bruto e preservado, mas o alias nao e contado duas vezes nas analises.
-
-### FakeRecogna
-
-Fonte: [Hugging Face — FakeRecogna](https://huggingface.co/datasets/recogna-nlp/FakeRecogna)
-
-O CSV original tem os campos `Titulo`, `Subtitulo`, `Noticia`, `Categoria`, `Data`, `Autor`, `URL` e `Classe`. O carregador usa preferencialmente `datasets` sobre a copia local; ha fallback para pandas. O raw nao e alterado.
-
-As duas ocorrencias de FakeRecogna (fonte independente e subconjunto consolidado no FactChecks.br) sao mantidas separadas porque possuem contagens e schemas diferentes.
-
-## Arquitetura
+## Estrutura
 
 ```text
-data/raw/        fontes exatamente como obtidas (imutaveis e ignoradas pelo Git)
-data/interim/    um Parquet padronizado por dataset, sem concatenacao
-data/processed/  reservado para dados prontos para modelagem apos decisao metodologica
-configs/         caminhos relativos e seed global
-notebooks/       cinco analises narrativas que chamam funcoes de src/
-src/data/        carregamento e materializacao intermediaria
-src/preprocessing/ limpeza minima, datas, dominios e labels documentados
-src/analysis/    perfil, texto, vocabulario, duplicatas e leakage
-src/visualization/ graficos orientados a perguntas
-reports/figures/ figuras geradas
-reports/tables/  evidencias tabulares auditaveis
-tests/           testes unitarios relevantes
+data/raw/                 fontes imutaveis (ignoradas pelo Git)
+data/interim/             schemas padronizados da EDA
+data/processed/           corpus e splits de modelagem
+src/preprocessing/        limpeza conservadora, grupos e splits
+src/models/               factories classicas e stacking carregavel
+src/evaluation/           metricas, calibracao, erros e graficos
+src/train_baselines.py    tuning e treino E01-E03
+src/train_stacking.py     OOF manual, ablations e treino E04
+src/train_bert.py         extensao opcional E05
+src/evaluate_temporal.py  avaliacao passado -> futuro
+src/predict.py            interface de inferencia/CLI
+models/                   artefatos joblib locais (ignorados pelo Git)
+reports/metrics/          metricas e predicoes auditaveis
+reports/figures/          comparacoes, ROC/PR e calibracao
+tests/                    testes automatizados
 ```
 
 ## Instalacao
 
-Requer Python 3.10 ou superior. A partir da raiz:
+Requer Python 3.10+:
 
 ```bash
 python3 -m venv .venv
@@ -58,67 +58,77 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-As dependencias foram limitadas a pandas, NumPy, Matplotlib, scikit-learn, Hugging Face `datasets`, PyArrow, PyYAML, Jupyter e pytest. Nao ha Transformers, PyTorch, TensorFlow, LangChain ou RAG.
+O ambiente exato da execucao entregue esta em
+`reports/metrics/environment.json`. Dados, modelos e caches continuam no
+`.gitignore`; somente codigo e relatorios leves sao versionados.
 
-## Como executar
+## Reproducao
 
-Para uma aquisicao nova, somente com destinos `data/raw` ausentes:
-
-```bash
-python scripts/fetch_data.py --acknowledge-network-download
-```
-
-O script se recusa a sobrescrever qualquer destino raw. Depois:
+Com os dados brutos locais:
 
 ```bash
 python -m src.data.make_dataset
 python -m src.analysis.pipeline
-pytest
-jupyter lab
+python -m src.preprocessing.modeling
+python -m src.train_baselines
+python -m src.train_stacking
+python -m src.evaluate_temporal
+pytest -q
 ```
 
-O pipeline cria Parquets separados em `data/interim`, tabelas em `reports/tables`, figuras em `reports/figures` e atualiza `reports/eda_summary.md`. Para uma verificacao mais rapida, `--skip-near-duplicates` pula somente a busca aproximada; duplicatas exatas continuam sendo calculadas.
+Ou, depois da EDA/interim:
 
-## Estrutura dos notebooks
+```bash
+python scripts/run_ml_pipeline.py
+```
 
-1. `01_dataset_overview.ipynb`: schemas, dimensoes, amostras, labels, periodos, fontes e comparacao inicial.
-2. `02_data_quality.ipynb`: ausentes, duplicatas completas/campo/cruzadas, labels e candidatos quase duplicados.
-3. `03_text_eda.ipynb`: comprimento, pontuacao, URLs, numeros, caixa, vocabulario, n-gramas e TF-IDF.
-4. `04_bias_and_leakage.ipynb`: associacoes label–fonte/autor/categoria/tempo/dataset e tabela de riscos.
-5. `05_dataset_comparison.ipynb`: comparacao e evidencias para uso separado, combinacao seletiva ou holdout externo.
+Cada TF-IDF e ajustado dentro do respectivo fold. O tuning usa cinco folds de
+`StratifiedGroupKFold`, Macro-F1 e apenas o treino. A validacao escolhe a ablation
+do stacking; o teste fica isolado ate a avaliacao final.
 
-Execute-os na ordem. Cada notebook pode reconstruir `data/interim` se necessario, mas nunca escreve em `data/raw`.
+## Documentacao local
 
-## Metodologia
+```bash
+python -m pip install -r requirements-docs.txt
+python scripts/prepare_docs_assets.py
+mkdocs serve
+```
 
-- Preservar label bruto e documentar sua interpretacao por fonte.
-- Nao combinar datasets ou mapear `other` para binario automaticamente.
-- Nao remover stopwords, fazer stemming/lematizacao ou eliminar colunas antes da auditoria.
-- Detectar sobreposicao por URL, hash de texto normalizado e candidatos por n-gramas de caracteres.
-- Adiar o split ate definir grupos de noticia, fonte e periodo.
-- Interpretar cada achado como **evidencia → interpretacao → possivel impacto**.
+O build usado pelo GitHub Pages pode ser validado com `mkdocs build --strict`.
 
-Estrategias futuras incluem split estratificado depois do agrupamento, group split por noticia ou fonte, split temporal e dataset externo como holdout. Cada uma resolve riscos diferentes; nenhuma foi selecionada nesta etapa.
+## Resultados
 
-Os primeiros baselines recomendados sao TF-IDF + Logistic Regression, TF-IDF + Linear SVM e Bag-of-Words + Logistic Regression. As metricas futuras incluem Accuracy, Precision, Recall, F1, Macro-F1, matriz de confusao, ROC-AUC e PR-AUC quando aplicaveis. Accuracy nunca sera usada isoladamente.
+| ID | Modelo | Macro-F1 | ROC-AUC | Brier | Status |
+|---|---|---:|---:|---:|---|
+| E01 | TF-IDF + Logistic Regression | 0,9752 | 0,9968 | 0,0271 | concluido |
+| E02 | TF-IDF + Linear SVM calibrado | **0,9876** | **0,9982** | **0,0108** | concluido |
+| E03 | TF-IDF + Multinomial NB | 0,9522 | 0,9890 | 0,0362 | concluido |
+| E04 | OOF Stacking (SVM + NB) | 0,9852 | 0,9979 | 0,0112 | concluido |
+| E05 | BERTimbau Base | — | — | — | opcional, nao executado |
+| E06 | Stacking + BERTimbau | — | — | — | opcional, nao executado |
 
-Uma probabilidade emitida por `predict_proba()` e uma estimativa do classificador, **nao um score de confiabilidade factual da noticia**. Calibracao, Brier Score, Log Loss, reliability diagrams, Platt Scaling e Isotonic Regression ficam para uma etapa posterior.
+O candidato recomendado e E02: melhor qualidade discriminativa/probabilistica,
+menor custo e Macro-F1 temporal de 0,9815. E04 nao superou o melhor individual.
 
-## Versionamento
+## Inferencia
 
-- **Git:** codigo, configuracoes, notebooks, testes e relatorio textual.
-- **DVC (futuro):** arquivos raw, interim, processed e seus checksums; nenhum remote e configurado agora.
-- **MLflow (futuro):** parametros, metricas, artefatos e linhagem dos experimentos de baseline.
+```bash
+python -m src.predict \
+  --model models/E02_linear_svm.joblib \
+  --title "Titulo da noticia" \
+  --content "Conteudo completo da noticia"
+```
 
-Os dados e modelos estao no `.gitignore`. `reports/tables/raw_manifest.csv` registra tamanho e SHA-256 das fontes adquiridas.
+A resposta inclui classe, probabilidades, threshold, ID/versao e disclaimer. A
+classe `NewsClassifier` pode ser instanciada diretamente por um futuro FastAPI.
 
-## Proximas etapas
+## BERTimbau opcional
 
-1. Revisar evidencias e decidir a unidade de classificacao.
-2. Validar manualmente conflitos e quase duplicatas.
-3. Definir grupos e protocolo de split livre de leakage.
-4. Materializar um dataset `processed` versionado por DVC.
-5. Implementar os tres baselines tradicionais e calibracao.
-6. Somente depois comparar BERTimbau e outros Transformers.
+```bash
+python -m pip install -e ".[bert]"
+python -m src.train_bert --epochs 3 --max-length 512
+```
 
-Consulte [o relatorio de EDA](reports/eda_summary.md) para resultados, limitacoes e recomendacoes.
+O ambiente entregue nao inclui PyTorch/Transformers e E05/E06 nao foram rodados.
+E06 exige previsoes BERT OOF; usar predicoes do mesmo ajuste no meta-learner
+constituiria data leakage.

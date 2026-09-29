@@ -1,0 +1,91 @@
+site_name: Fake News Classification — PT-BR
+site_description: Metodologia, modelos e decisões do classificador de notícias em português brasileiro
+site_author: Pedro Silva
+site_url: https://pedrosilv1514.github.io/FakeNews-EDA/
+repo_url: https://github.com/pedrosilv1514/FakeNews-EDA
+repo_name: pedrosilv1514/FakeNews-EDA
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Usar tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Usar tema claro
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Início: index.md
+  - Dados: dados.md
+  - Metodologia: metodologia.md
+  - Modelos:
+      - Visão geral: modelos/index.md
+      - Logistic Regression: modelos/logistic-regression.md
+      - Linear SVM: modelos/linear-svm.md
+      - Naive Bayes: modelos/naive-bayes.md
+      - Stacking OOF: modelos/stacking.md
+  - Resultados: resultados.md
+  - Decisão: decisao.md
+  - Inferência: inferencia.md
+  - Limitações: limitacoes.md
+  - Referências: referencias.md
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pedrosilv1514/FakeNews-EDA
+      name: Repositório no GitHub
+
+copyright: Resultados experimentais — a classificação não constitui verificação factual.
