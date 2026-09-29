@@ -1,0 +1,7 @@
+experiment,model,status,reason
+E01,TF-IDF + Logistic Regression,completed,
+E02,TF-IDF + calibrated Linear SVM,completed,
+E03,TF-IDF + Multinomial Naive Bayes,completed,
+E04,Manual OOF Stacking,completed,
+E05,BERTimbau Base,not_run,"Optional dependencies absent; compatible accelerator runtime not provisioned"
+E06,Stacking with BERTimbau,not_run,"Requires leakage-free OOF predictions from five BERT fine-tunings"

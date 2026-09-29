@@ -1,0 +1,5 @@
+base_learners,n_base_learners,validation_macro_f1,validation_log_loss
+linear_svm+multinomial_nb,2,0.9881934764427098,0.044460503881620844
+logistic_regression+linear_svm,2,0.9876030941037857,0.044810795410947575
+logistic_regression+linear_svm+multinomial_nb,3,0.9876030941037857,0.04481173646082086
+logistic_regression+multinomial_nb,2,0.9763871174580607,0.0641298525232606
