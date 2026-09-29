@@ -42,6 +42,7 @@ theme:
 nav:
   - Início: index.md
   - Dados: dados.md
+  - Benchmark externo: data/external-benchmark-protocol.md
   - Metodologia: metodologia.md
   - Modelos:
       - Visão geral: modelos/index.md
